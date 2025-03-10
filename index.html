@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html :class="{ 'theme-dark': dark }" x-data="data()" lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SatzzDev</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="description" content="SatzzDev - Full Stack Developer | Open Source Enthusiast">
+<meta name="keywords" content="web developer, javascript, node.js, open source">
+<meta name="author" content="SatzzDev">
+<meta property="og:title" content="SatzzDev - Full Stack Developer">
+<meta property="og:description" content="Portfolio saya sebagai Full Stack Developer. Lihat proyek dan skill saya di sini.">
+<meta property="og:image" content="https://i.pinimg.com/originals/94/d3/6c/94d36cae8d555228de937e309d66f254.jpg">
+<meta property="og:url" content="https://satzzdev.xyz">
+<meta name="twitter:card" content="summary_large_image">
+<link href="https://fonts.googleapis.com/css2 family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="./assets/css/tailwind.output.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+<script src="./assets/js/init-alpine.js"></script>
+<script src="./assets/js/focus-trap.js" defer></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<style>
+.animate-spin-realtime {
+display: inline-block;
+animation: spin-realtime 60s linear infinite; 
+}
+@keyframes spin-realtime {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+}
+</style>
+</head>
+<body onclick="playBackSounds()">
+<!-- Preloader -->
+<div id="preloader">
+<div class="sk-cube-grid">
+<div class="sk-cube sk-cube1"></div>
+<div class="sk-cube sk-cube2"></div>
+<div class="sk-cube sk-cube3"></div>
+<div class="sk-cube sk-cube4"></div>
+<div class="sk-cube sk-cube5"></div>
+<div class="sk-cube sk-cube6"></div>
+<div class="sk-cube sk-cube7"></div>
+<div class="sk-cube sk-cube8"></div>
+<div class="sk-cube sk-cube9"></div>
+</div>
+</div>
+<div class="flex h-screen bg-gray-50 dark:bg-gray-900" :class="{ 'overflow-hidden': isSideMenuOpen }">
+<div class="flex flex-col flex-1 w-full">
+<header class="z-10 py-4 bg-white shadow-md dark:bg-gray-800">
+<div class="container flex items-center justify-between h-full px-6 mx-auto text-purple-600 dark:text-purple-300">
+<!-- Mobile hamburger -->
+<a class="p-1 mr-5 -ml-1 rounded-md md:hidden focus:outline-none focus:shadow-outline-purple" @click="toggleSideMenu" aria-label="Menu">
+<i class="fas fa-heart"></i>
+</a>
+  <input class="w-full pl-8 pr-2 text-sm text-gray-700 placeholder-gray-600 bg-gray-100 border-0 rounded-md dark:placeholder-gray-500 dark:focus:shadow-outline-gray dark:focus:placeholder-gray-600 dark:bg-gray-700 dark:text-gray-200 focus:placeholder-gray-500 focus:bg-white focus:border-purple-300 focus:outline-none focus:shadow-outline-purple form-input" type="text" placeholder="Search for projects" aria-label="Search"/>
+<ul class="flex items-center flex-shrink-0 space-x-6">
+<!-- Theme toggler -->
+<li class="flex swap swap-rotate">
+<button class="rounded-md focus:outline-none focus:shadow-outline-purple" @click="toggleTheme" aria-label="Toggle color mode">
+<template x-if="!dark">
+<svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+<path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+</template>
+<template x-if="dark">
+<svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+<path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+clip-rule="evenodd"></path>
+</svg>
+</template>
+</button>
+</li>
+<li class="flex swap swap-rotate">
+<button class="rounded-md focus:outline-none focus:shadow-outline-purple" @click="toggleScreen" aria-label="Toggle full screen mode">
+<template x-if="!isFullScreen">
+<i class="mdi mdi-fullscreen focus:outline-none"></i>
+</template>
+<template x-if="isFullScreen">
+<i class="mdi mdi-fullscreen-exit focus:outline-none"></i>
+</template>
+</button>
+</li>
+<!-- Profile menu -->
+<li class="relative">
+<button class="align-middle rounded-full focus:shadow-outline-purple focus:outline-none" @click="toggleProfileMenu" @keydown.escape="closeProfileMenu" aria-label="Account" aria-haspopup="true">
+<img loading="lazy" class="object-cover w-8 h-8 rounded-full online" src="https://i.pinimg.com/originals/94/d3/6c/94d36cae8d555228de937e309d66f254.jpg" alt="" aria-hidden="true"/>
+</button>
+<template x-if="isProfileMenuOpen">
+<ul x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" @click.away="closeProfileMenu" @keydown.escape="closeProfileMenu" class="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-white border border-gray-100 rounded-md shadow-md dark:border-gray-700 dark:text-gray-300 dark:bg-gray-700" aria-label="submenu">
+<li class="flex">
+<a class="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200" target="_blank" href="https://satzzdev.xyz">
+<svg class="w-4 h-4 mr-3" aria-hidden="true" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+<path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+</svg>
+<span>Profile</span>
+</a>
+</li>
+</ul>
+</template>
+</li>
+</ul>
+</div>
+</header>
+<main class="h-full overflow-y-auto space-y-16">
+<div class="container px-6 mx-auto grid">
+<h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">Home</h2>
+<!-- CTA -->
+<a class="flex items-center justify-between p-4 mb-8 text-sm font-semibold text-purple-100 bg-purple-600 rounded-lg shadow-md focus:outline-none focus:shadow-outline-purple" href="whatsapp://chat?code=H0ho9w6jsekAx2EYsh4yf5" target="_blank" title="Join My WhatsApp Group">
+<div class="flex items-center">
+<i class="fab fa-whatsapp mr-2"></i>
+<span>Join My WhatsApp Group</span>
+</div>
+<span>Join Now &RightArrow;</span>
+</a>
+<!-- Cards -->
+<div class="grid gap-6 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+<!-- Card Start -->
+<div class="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+<div class="p-3 mr-4 text-teal-500 bg-teal-100 rounded-full dark:text-teal-100 dark:bg-teal-500 fas fa-clock animate-spin-realtime">
+</div>
+<div>
+<p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">Current Time</p>
+<p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+<span class="countdown font-mono text-lg font-semibold text-gray-700 dark:text-gray-200">
+<span id ="hour"></span>:
+<span id ="minute"></span>:
+<span id ="second"></span>
+</span>
+<span id="ampm"></span>
+</p>
+</div>
+</div>
+<!-- Card End -->
+</div>
+<!-- Hero Section -->
+<div class="grid gap-6 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+<div class="text-center min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+<img loading="lazy" src="https://i.pinimg.com/originals/94/d3/6c/94d36cae8d555228de937e309d66f254.jpg" alt="Profile Picture" class="w-32 h-32 mx-auto rounded-full mb-4">
+<span id="typing" class="text-3xl font-bold text-gray-800 dark:text-gray-200"></span>
+<p class="text-gray-600 dark:text-gray-400">Full Stack Developer | Open Source Enthusiast</p>
+<a href="whatsapp://send/?phone=6282170988479&text&type=phone_number&app_absent=0&wame_ctl=1" class="mt-4 inline-block bg-purple-600 text-white py-2 px-6 rounded-lg">Contact Me</a>
+</div>
+</div>
+
+<!-- About Section -->
+<div class="grid gap-6 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+<div class="text-center min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+<h2 class="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">About Me</h2>
+<p class="text-gray-600 dark:text-gray-400">Hello! I'm a passionate web developer with a love for creating dynamic and engaging user experiences.<br> I specialize in building web applications using modern tools like Express.js and EJS, with a preference for lightweight, efficient solutions. <br> In my free time, I enjoy exploring new technologies and sharing my projects with the developer community.</p>
+</div>
+</div>
+
+<div class="grid gap-6 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+<div class="text-center min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+<h2 class="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Skills</h2>
+<div class="flex justify-center space-x-6 text-xl mb-4">
+<i class="fab fa-js text-yellow-500"></i>
+<i class="fab fa-node-js text-green-500"></i>
+<i class="fab fa-react text-blue-500"></i>
+<i class="fab fa-vuejs text-green-400"></i>
+<i class="fab fa-angular text-red-500"></i>
+</div>
+<div class="flex justify-center space-x-6 text-xl mt-4">
+<i class="fab fa-html5 text-orange-500"></i>
+<i class="fab fa-css3-alt text-blue-600"></i>
+<i class="fab fa-sass text-pink-500"></i>
+<i class="fab fa-bootstrap text-purple-600"></i>
+</div>
+<div class="flex justify-center space-x-6 text-xl mt-4">
+<i class="fab fa-python text-blue-400"></i>
+<i class="fab fa-php text-indigo-600"></i>
+<i class="fab fa-java text-red-600"></i>
+<i class="fab fa-rust text-gray-700"></i>
+</div>
+<div class="flex justify-center space-x-6 text-xl mt-4">
+<i class="fab fa-swift text-red-500"></i>
+<i class="fab fa-kotlin text-purple-500"></i>
+<i class="fab fa-go text-cyan-500"></i>
+<i class="fab fa-laravel text-red-600"></i>
+</div>
+</div>
+</div>
+
+
+
+<div class="text-center min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+<h2 class="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">My Projects</h2>
+<div class="swiper mySwiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide bg-white dark:bg-gray-800 p-4 rounded-lg">
+<img loading="lazy" src="https://i.pinimg.com/736x/da/9a/9f/da9a9fbe577298b0d6ba2be211f97f6e.jpg" alt="Project Image" class="w-32 h-32 mx-auto rounded-md mb-4">
+<h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200">WhatsApp Bot</h3>
+<p class="text-gray-600 dark:text-gray-400">A Node.js-based WhatsApp bot using Baileys, capable of managing automated messages, group administration, and API integration for various services.</p>
+<a href="whatsapp://send/?phone=6281268248904&text=.menu&type=phone_number&app_absent=0&wame_ctl=1" class="mt-4 inline-block bg-purple-600 text-white py-2 px-6 rounded-lg">Try It</a>
+</div>
+<div class="swiper-slide bg-white dark:bg-gray-800 p-4 rounded-lg">
+<img loading="lazy" src="Screenshot 2025-03-09 151005.png" alt="Project Image" class="w-32 h-32 mx-auto rounded-md mb-4">
+<h3 class="text-xl font-semibold text-gray-800 dark:text-gray-200">Jadwal Sholat</h3>
+<p class="text-gray-600 dark:text-gray-400">A web-based prayer time application that provides accurate schedules for daily prayers based on location, using reliable API sources.</p>
+<a href="https://kurniawansatria.github.io/JadwalSholat" target="_blank" class="mt-4 inline-block bg-purple-600 text-white py-2 px-6 rounded-lg mb-8">Try It</a>
+</div>
+</div>
+<div class="swiper-pagination" style="margin-top: 50px;"></div>
+</div>
+</div>
+
+<footer class="w-full bg-gray-900 text-white py-4 text-center text-sm">
+<p>&copy; 2025 SatzzDev. All Rights Reserved.</p>
+<div class="mt-2 space-x-4">
+<a href="https://github.com/KurniawanSatria" class="hover:underline"><i class="fab fa-github"></i>
+</a>
+<a href="https://instagram.com/krniwnstria" class="hover:underline"><i class="fab fa-instagram"></i>
+</a>
+<a href="https://t.me/krniwnstria" class="hover:underline"><i class="fab fa-telegram"></i>
+</a>
+</div>
+</footer>
+</div>
+</main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper(".mySwiper", {
+loop: true,
+pagination: { el: ".swiper-pagination", clickable: true }
+})
+</script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
