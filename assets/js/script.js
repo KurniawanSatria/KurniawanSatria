@@ -20,7 +20,7 @@ document.getElementById("ampm").textContent=h>=12?"PM":"AM";
 }, 100);
 
 
-let audio = new Audio("/output.mp3");
+let audio = new Audio("../assets/output.mp3");
 audio.load();
 let isPlaying = false;
 audio.addEventListener("ended", () => isPlaying = false); 
