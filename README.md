@@ -1,21 +1,14 @@
-# 💼 Kurniawan Satria
+## 💼 Kurniawan Satria
 
-Halo! Saya Kurniawan Satria, seorang Web Developer dengan fokus pada pengembangan web dengan Express.js, Firebase, dan Tailwind CSS. Saya suka mengerjakan proyek-proyek yang menggabungkan teknologi backend dan frontend untuk menciptakan pengalaman pengguna yang optimal.
+Hi, I'm Kurniawan Satria, a web developer focused on building modern web applications using Express.js, Firebase, and Tailwind CSS. I enjoy working on projects that combine backend and frontend technologies to create efficient and user-friendly experiences.
 
-## 📌 Tentang Saya
-- 🌱 Saya saat ini sedang belajar [teknologi atau framework yang sedang dipelajari].
-- 💬 Tanya saya tentang Node.js, Express.js, Firebase, Tailwind CSS, dll.
-- 📫 Hubungi saya melalui: satganzdevs@gmail.com atau https://t.me/krniwnstria
+## 📌 About Me
+- 🌱 Currently learning and exploring new technologies and frameworks to improve my development skills.
 
-## 🛠️ Teknologi & Tools
-- **Backend:** Node.js, Express.js
-- **Frontend:** EJS, Tailwind CSS
-- **Database:** Firebase, JSON (GitHub Storage)
-- **Tools:** Git, Pterodactyl, rembg-node, Baileys (untuk nomor pribadi)
+## 🛠️ Tech Stack & Tools
+- **Backend:** Node.js, Python, Next.js
+- **Frontend:** React Next.js
+- **Database:** Mongodb, Firebase, JSON (GitHub-based storage)  
 
-
-## 📈 Statistik GitHub
-![Statistik GitHub](https://github-readme-stats.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=radical)
-
-## 🌐 Info Lebih Lanjut
-- Portfolio: https://satzzdev.xyz
+## 📈 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=radical)
