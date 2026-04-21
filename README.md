@@ -17,10 +17,10 @@
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react1.svg" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=dark&hide_border=true&rank_icon=github" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KurniawanSatria&theme=dark&hide_border=true&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KurniawanSatria&theme=dark&hide_border=true&layout=compact&card_width=400&size_weight=1" />
 </p>
 <!-- Footer -->
 <p align="center">
