@@ -18,7 +18,7 @@
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react1.svg" />
 </p>
 
----
+
 
 <p align="center">
   <img src="https://lanyard.cnrad.dev/api/1051160138746171432" />
@@ -26,6 +26,8 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KurniawanSatria&theme=dark&hide_border=true&layout=compact&card_width=400&size_weight=1" />
 </p>
+
+---
 <!-- Footer -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=827E7C&section=footer&reversal=true" />
