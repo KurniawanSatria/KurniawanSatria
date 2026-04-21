@@ -21,7 +21,7 @@
 
 
 <p align="center">
-  <img src="https://spotify-presence.vercel.app/spotify.svg" />
+  <img src="https://spotify-presence.vercel.app/spotify.svg?t=1" />
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KurniawanSatria&theme=dark&hide_border=true&layout=compact&card_width=400&size_weight=1" />
