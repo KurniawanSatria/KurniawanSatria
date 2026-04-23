@@ -15,7 +15,7 @@
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react1.svg" />
 </p>
 <p align="center">
-  <img src="https://spotify-presence.up.railway.app/spotify.svg?t=1" />
+  <img src="https://spotify-presence.up.railway.app/spotify.svg" />
 </p>
 <!-- Footer -->
 <p align="center">
