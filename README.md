@@ -21,7 +21,6 @@ I'm Saturia, a developer focused on building web applications, automation system
 I enjoy turning random ideas into working software, usually followed by fixing the problems I created five minutes earlier.
 
 - 💻 Full-Stack & Backend Development
-- 🤖 WhatsApp & Discord Bot Development
 - ⚙️ Automation & API Development
 - 🐳 Server & Container Infrastructure
 - 🔧 Open Source & Self-Hosted Projects
@@ -30,13 +29,13 @@ I enjoy turning random ideas into working software, usually followed by fixing t
 
 ## ⚡ Tech Stack
 
-<p align="center">
+<p align="left">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python1.svg" />
 </p>
 
-<p align="center">
+<p align="left">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NextJS/nextjs1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs1.svg" />
@@ -47,7 +46,7 @@ I enjoy turning random ideas into working software, usually followed by fixing t
 
 ## 🛠️ Tools & Infrastructure
 
-<p align="center">
+<p align="left">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Git/git1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Docker/docker1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Linux/linux1.svg" />
