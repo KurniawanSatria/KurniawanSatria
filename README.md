@@ -14,6 +14,20 @@
 
 ---
 
+## 👋 About Me
+
+I'm Saturia, a developer focused on building web applications, automation systems, bots, and backend infrastructure.
+
+I enjoy turning random ideas into working software, usually followed by fixing the problems I created five minutes earlier.
+
+- 💻 Full-Stack & Backend Development
+- 🤖 WhatsApp & Discord Bot Development
+- ⚙️ Automation & API Development
+- 🐳 Server & Container Infrastructure
+- 🔧 Open Source & Self-Hosted Projects
+
+---
+
 ## ⚡ Tech Stack
 
 <p align="center">
@@ -31,25 +45,19 @@
 
 ---
 
-## 🎧 Currently Listening
+## 🛠️ Tools & Infrastructure
 
 <p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31baawv2fhvznr3b6bpr4iuxjkaq&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31baawv2fhvznr3b6bpr4iuxjkaq&cover_image=true&theme=spotify-embed&show_offline=true&background_color=15181b&interchange=false&profanity=false&hide_remaster=false&mode=dark&bar_color=ffffff&bar_color_cover=false">
-  </a>
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Git/git1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Docker/docker1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Linux/linux1.svg" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
-
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KurniawanSatria&layout=compact&theme=github_dark&hide_border=true" />
+  <i>Not everything needs a solution.</i>
 </p>
-
-<!-- Footer -->
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=1A1C1F&section=footer" />
 </p>
