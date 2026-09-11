@@ -30,27 +30,25 @@ I enjoy turning random ideas into working software, usually followed by fixing t
 ## ⚡ Tech Stack
 
 <p align="left">
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python1.svg" />
+  <img src="https://skillicons.dev/icons?i=nodejs,python,bun,javascript,typescript" alt="Languages & Runtime" />
 </p>
 
 <p align="left">
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NextJS/nextjs1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/TailwindCSS/tailwindcss1.svg" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,express,tailwind,discordjs" alt="Frameworks & Libraries" />
 </p>
-
----
-
-## 🛠️ Tools & Infrastructure
 
 <p align="left">
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Git/git1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Docker/docker1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Linux/linux1.svg" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm,pnpm" alt="Development Tools" />
 </p>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,linux,cloudflare,azure,nginx" alt="DevOps & Infrastructure" />
+</p>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,sqlite,prisma" alt="Databases & ORM" />
+</p>
+
 
 ---
 
