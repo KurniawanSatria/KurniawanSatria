@@ -4,52 +4,67 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=1A1C1F&text=Saturia.&fontColor=FFFFFF&desc=Not%20Everything%20Needs%20a%20Solution&animation=fadeIn&fontAlignY=38" />
 </p>
 
-<h3 align="center">
-  Full-Stack Developer • Bot Developer • Open Source Enthusiast
-</h3>
+<h1 align="center">Hi there, I'm Saturia 👋</h1>
 
 <p align="center">
-  Building things that solve problems, one commit at a time.
+  Informatics Engineering student at Universitas Islam Riau 
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KurniawanSatria&style=flat-square&color=blueviolet" alt="Profile views" />
+</p>
+
+<p align="center">
+  <a href="mailto:kurniawannsatria@gmail.com" target="_blank">
+    <img alt="Email" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 ---
 
-<h2 align="center">👋 About Me</h2>
+### 🧑‍💻 About Me
+
+- 🎓 Informatics Engineering student at **Universitas Islam Riau**
+- ⚙️ Focused on **backend development** and the **JavaScript/TypeScript** ecosystem
+- 🌱 Currently exploring **Artificial Intelegence** and scalable API design
+- 🤖 Interested in **Automation**
+- 📫 Reach me at **supports@saturia.codes**
+
+### 🛠️ Tech Stack
+
+**Languages**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,python,php,ts" alt="Languages" />
+</p>
+
+**Frameworks & Runtime**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,bun,nextjs,express" alt="Frameworks" />
+</p>
+
+**Databases**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=supabase,mongodb,redis,firebase" alt="Databases" />
+</p>
+
+**Tools**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,git,postman,vscode" alt="Tools" />
+</p>
+
+### 📊 GitHub Stats
 
 <p align="center">
-  I'm Saturia, a developer focused on building web applications, automation systems, bots, and backend infrastructure.
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KurniawanSatria&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center">
-  I enjoy turning random ideas into working software, usually followed by fixing the problems I created five minutes earlier.
-</p>
-
-<p align="center">
-  💻 Full-Stack & Backend Development • ⚙️ Automation & API Development • 🐳 Server & Container Infrastructure • 🔧 Open Source & Self-Hosted Projects
-</p>
-
----
-
-<h2 align="center">⚡ Tech Stack</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,python,bun,javascript,typescript" alt="Languages & Runtime" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,express,tailwind,discordjs" alt="Frameworks & Libraries" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm,pnpm" alt="Development Tools" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,linux,cloudflare,azure,nginx" alt="DevOps & Infrastructure" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,sqlite,prisma" alt="Databases & ORM" />
+  <img src="https://streak-stats.demolab.com?user=KurniawanSatria&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
