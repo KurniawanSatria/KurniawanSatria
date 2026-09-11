@@ -14,47 +14,50 @@
 
 ---
 
-## 👋 About Me
+<h2 align="center">👋 About Me</h2>
 
-I'm Saturia, a developer focused on building web applications, automation systems, bots, and backend infrastructure.
+<p align="center">
+  I'm Saturia, a developer focused on building web applications, automation systems, bots, and backend infrastructure.
+</p>
 
-I enjoy turning random ideas into working software, usually followed by fixing the problems I created five minutes earlier.
+<p align="center">
+  I enjoy turning random ideas into working software, usually followed by fixing the problems I created five minutes earlier.
+</p>
 
-- 💻 Full-Stack & Backend Development
-- ⚙️ Automation & API Development
-- 🐳 Server & Container Infrastructure
-- 🔧 Open Source & Self-Hosted Projects
+<p align="center">
+  💻 Full-Stack & Backend Development • ⚙️ Automation & API Development • 🐳 Server & Container Infrastructure • 🔧 Open Source & Self-Hosted Projects
+</p>
 
 ---
 
-## ⚡ Tech Stack
+<h2 align="center">⚡ Tech Stack</h2>
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,python,bun,javascript,typescript" alt="Languages & Runtime" />
 </p>
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,express,tailwind,discordjs" alt="Frameworks & Libraries" />
 </p>
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,npm,pnpm" alt="Development Tools" />
 </p>
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=docker,linux,cloudflare,azure,nginx" alt="DevOps & Infrastructure" />
 </p>
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,sqlite,prisma" alt="Databases & ORM" />
 </p>
-
 
 ---
 
 <p align="center">
   <i>Not everything needs a solution.</i>
 </p>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=1A1C1F&section=footer" />
 </p>
