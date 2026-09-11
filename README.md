@@ -7,7 +7,7 @@
 <h1 align="center">Hi there, I'm Saturia 👋</h1>
 
 <p align="center">
-  Informatics Engineering student at Universitas Islam Riau 
+  Informatics Engineering Student at Universitas Islam Riau
 </p>
 
 <p align="center">
@@ -15,48 +15,50 @@
 </p>
 
 <p align="center">
-  <a href="mailto:kurniawannsatria@gmail.com" target="_blank">
-    <img alt="Email" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:kurniawannsatria@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
 ---
 
-### 🧑‍💻 About Me
+<h2 align="center">🧑‍💻 About Me</h2>
 
-- 🎓 Informatics Engineering student at **Universitas Islam Riau**
-- ⚙️ Focused on **backend development** and the **JavaScript/TypeScript** ecosystem
-- 🌱 Currently exploring **Artificial Intelegence** and scalable API design
-- 🤖 Interested in **Automation**
-- 📫 Reach me at **supports@saturia.codes**
+<p align="center">
+  Full-Stack & Backend Developer focused on building web applications, bots, automation systems, and backend infrastructure.
+</p>
 
-### 🛠️ Tech Stack
+<p align="center">
+  🎓 Informatics Engineering • ⚙️ Backend Development • 🤖 Automation • 🐳 Infrastructure • 🔧 Open Source
+</p>
 
-**Languages**
+---
 
-<p>
+<h2 align="center">⚡ Tech Stack</h2>
+
+<p align="center">
+  <strong>Languages</strong><br>
   <img src="https://skillicons.dev/icons?i=js,python,php,ts" alt="Languages" />
 </p>
 
-**Frameworks & Runtime**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,bun,nextjs,express" alt="Frameworks" />
+<p align="center">
+  <strong>Frameworks & Runtime</strong><br>
+  <img src="https://skillicons.dev/icons?i=nodejs,bun,nextjs,express" alt="Frameworks & Runtime" />
 </p>
 
-**Databases**
-
-<p>
+<p align="center">
+  <strong>Databases</strong><br>
   <img src="https://skillicons.dev/icons?i=supabase,mongodb,redis,firebase" alt="Databases" />
 </p>
 
-**Tools**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,git,postman,vscode" alt="Tools" />
+<p align="center">
+  <strong>Tools & Infrastructure</strong><br>
+  <img src="https://skillicons.dev/icons?i=linux,git,postman,vscode" alt="Tools & Infrastructure" />
 </p>
 
-### 📊 GitHub Stats
+---
+
+<h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
   <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
