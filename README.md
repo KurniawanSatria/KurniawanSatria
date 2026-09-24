@@ -14,7 +14,7 @@ Hi, I'm **Satria**, an **Informatics Engineering student** at **Universitas Isla
 
 I **love automation way too much**. If something can be automated, I'll probably automate it. I build backend services, bots, web automation, and infrastructure to handle the boring stuff so I don't have to.
 
-<img align="right" alt="GIF" width="350px" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" />
+<img align="right" alt="GIF" width="350px" src="https://i.pinimg.com/originals/8a/79/26/8a792666583d191567bebcf89b84f625.gif" />
 
 **Talking about me:**
 
@@ -39,12 +39,17 @@ I **love automation way too much**. If something can be automated, I'll probably
 **A few things I work with:**
 
 ```text
-Backend        → Node.js · Bun · Express · REST APIs
-Automation     → Puppeteer · Bots · Web Automation
-Infrastructure → Linux · Docker · Cloud · Self-hosting
-Music Systems  → Lavalink · Discord · Audio Infrastructure
+Backend        → Node.js · Bun · Express · REST APIs · API Design
+Automation     → Puppeteer · Web Automation · Bots · AI Agents
+Discord        → Discord.js · Lavalink · Kazagumo · Shoukaku
+Infrastructure → Linux · Docker · Cloud · Self-hosting · Reverse Proxy
 Databases      → MongoDB · Redis · Supabase · Firebase
+DevOps         → Git · GitHub · CI/CD · Docker Compose · Cloudflare
+AI & APIs      → OpenAI-compatible APIs · LLM Routing · Model Integration
+Web            → Next.js · React · TypeScript · JavaScript
+Systems        → Server Orchestration · Monitoring · Networking
 ```
+
 <p align="center">
   <i>If it can be automated, automate it.</i>
 </p>
