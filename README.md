@@ -1,135 +1,50 @@
-<!-- Hero -->
+### Hey 👋, I'm Saturia
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=1A1C1F&text=Saturia.&fontColor=FFFFFF&desc=Born%20to%20Automate.&animation=fadeIn&fontAlignY=38" />
-</p>
+<a href="https://github.com/KurniawanSatria">
+  <img align="left" alt="GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+</a>
+<a href="https://saturia.codes">
+  <img align="left" alt="Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/internetexplorer.svg" />
+</a>
 
-<h1 align="center">Hi, I'm Saturia.</h1>
+<br />
+<br />
 
-<p align="center">
-  <i>I love automation way too much.</i>
-</p>
+Hi, I'm **Satria**, an **Informatics Engineering student** at **Universitas Islam Riau** from Pekanbaru, Indonesia.
 
-I'm Saturia, an Informatics Engineering student at Universitas Islam Riau, based in Pekanbaru, Indonesia.
+I **love automation way too much**. If something can be automated, I'll probably automate it. I build backend services, bots, web automation, and infrastructure to handle the boring stuff so I don't have to.
 
-I love automation way too much. If something can be automated, I'll probably automate it. I build backend services, bots, web automation, and infrastructure to handle the boring stuff so I don't have to.
+<img align="right" alt="GIF" width="350px" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" />
 
-I mostly work with Node.js, Bun, Docker, Linux, Puppeteer, and Lavalink, building systems that are practical, reliable, and actually get the job done.
+**Talking about me:**
 
----
+* 👨‍💻 Building backend services, automation tools, and bots
+* 🤖 Turning repetitive tasks into automated workflows
+* ⚙️ Working with Node.js, Bun, Puppeteer, and Lavalink
+* 🐳 Running and managing self-hosted infrastructure with Docker & Linux
+* 🔧 Building and maintaining open-source projects
+* 🌱 Always experimenting with new tools, systems, and weird ideas
+* 💬 Mostly interested in automation, backend engineering, and infrastructure
+* 📍 Based in Pekanbaru, Indonesia
 
-## ⚡ Stack
-
-**Languages**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,php" alt="Languages" />
-</p>
-
-**Runtime & Frameworks**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,bun,nextjs,express" alt="Runtime & Frameworks" />
-</p>
-
-**Databases & Services**
+**Languages & Tools:**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,redis,supabase,firebase" alt="Databases & Services" />
+  <img height="28" src="https://skillicons.dev/icons?i=js,ts,python,php,nodejs,bun,nextjs,express" />
 </p>
-
-**Infrastructure & Tools**
-
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,docker,git,github,vscode" alt="Infrastructure & Tools" />
+  <img height="28" src="https://skillicons.dev/icons?i=linux,docker,git,github,vscode,mongodb,redis,supabase,firebase" />
 </p>
 
-## 📊 GitHub
+**A few things I work with:**
 
+```text
+Backend        → Node.js · Bun · Express · REST APIs
+Automation     → Puppeteer · Bots · Web Automation
+Infrastructure → Linux · Docker · Cloud · Self-hosting
+Music Systems  → Lavalink · Discord · Audio Infrastructure
+Databases      → MongoDB · Redis · Supabase · Firebase
+```
 <p align="center">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=KurniawanSatria&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=KurniawanSatria&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-
----
-
-## Summary
-
-- This is a personal GitHub profile README that renders on the profile page
-- It uses an animated waving-banner hero, skillicons for the tech stack, and GitHub Stats cards for live activity
-- `assets/` retains media files from an earlier HTML-based profile page; no executables
-
-## Structure of the Dir
-
-| Dir        | Description                                        |
-| :--------- | :------------------------------------------------- |
-| `assets/`  | Media files retained from an earlier HTML profile  |
-
-## Description of Files
-
-| File                | Description                                            | Cluster        |
-| :------------------ | :----------------------------------------------------- | :------------- |
-| `README.md`         | Profile page: hero, stack icons, and GitHub stats      | Profile Design |
-| `assets/banner.jpg` | Wide banner image used for profile previews            | Media          |
-| `assets/bg.jpg`     | Background photo retained from the legacy HTML profile | Media          |
-| `assets/bg.mp3`     | Background audio retained from the legacy HTML profile | Media          |
-| `assets/icon.jpg`   | Square icon used for preview branding                  | Media          |
-
-## Description of Executables
-
-- This repository contains no executables
-- It is a README-only profile page with static media assets
-
-## Description of Workflows
-
-- Edit profile content directly in `README.md`:
-
-  ```bash
-  > git add README.md
-  > git commit -m "Update profile content"
-  > git push origin main
-  ```
-
-- Add new media to `assets/` and reference it with a relative path:
-
-  ```bash
-  > git add assets/<file>
-  > git commit -m "Add media asset"
-  > git push origin main
-  ```
-
-## Description of Architecture
-
-- The profile is a single `README.md` that renders on the GitHub profile page
-- GitHub renders relative media from `assets/`, dynamic visuals from image services
-- Every dynamic element on the page is generated by an external image service:
-
-| Service                       | Provides                          |
-| :---------------------------- | :-------------------------------- |
-| `capsule-render.vercel.app`   | Hero and footer waving banners    |
-| `skillicons.dev`              | Tech stack icons                  |
-| `github-readme-stats`         | Stats and top languages cards     |
-
-- Render flow of the profile page:
-
-  ```mermaid
-  graph TD
-    P[GitHub Profile] --> R[README.md]
-    P --> A[assets/ media]
-    R --> D[Dynamic image services]
-    D --> S1[Waving banners]
-    D --> S2[Stack icons]
-    D --> S3[Stats, languages]
-    A --> S4[Relative media files]
-  ```
-
----
-
-<p align="center">
-  <i>Born to Automate.</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=1A1C1F&section=footer" />
+  <i>If it can be automated, automate it.</i>
 </p>
