@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/tech&stack.svg" alt="Tech Stack" width="100%">
+  <img src="assets/stack.svg" alt="Tech Stack" width="100%">
 </p>
 
 <p align="center">

@@ -5,6 +5,7 @@
     .pill { animation: pillpop 12s ease-out infinite; transform-box: fill-box; transform-origin: center; }
     .p0 { animation-delay: 0.4s }
     .p1 { animation-delay: 0.52s }
+    .p2 { animation-delay: 0.64s }
     .accentbar { animation: bar 12s ease-out infinite; transform-origin: top left; }
 
     @keyframes slidein {
@@ -33,27 +34,39 @@
     }
   </style>
 
-  <rect x="32" y="32" width="3" height="256" fill="#dc2626" rx="1.5" class="accentbar"/>
+  <rect x="32" y="32" width="3" height="256" fill="#ffffff" rx="1.5" class="accentbar"/>
 
-  <text class="heading" x="56" y="97" fill="#f7f7fb" font-family='"Inter", system-ui, sans-serif' font-size="32" font-weight="700">Hi, I&apos;m KURNIAWAN SATRIA.</text>
+  <text class="heading" x="56" y="86" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="32" font-weight="700">Hi, I&apos;m Kurniawan Satria.</text>
 
-  <text class="bio" x="56" y="147" fill="#a5a5b3" font-family='"Inter", system-ui, sans-serif' font-size="15" font-weight="400">
-    <tspan x="56" dy="0">I build things that turn LLM rollouts into accountable workflows. Lately:</tspan>
-    <tspan x="56" dy="22">agent observability, replayable runs, and the kind of debugging tooling I wish</tspan>
-    <tspan x="56" dy="22">existed when I started.</tspan>
+  <text class="bio" x="56" y="136" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="15" font-weight="400">
+    <tspan x="56" dy="0">an <tspan font-weight="700">Informatics Engineering student</tspan> at <tspan font-weight="700">Islamic University of Riau</tspan></tspan>
+    <tspan x="56" dy="22">from Pekanbaru, Indonesia.</tspan>
+    <tspan x="56" dy="22"><tspan font-weight="700">I love automation</tspan> way too much.</tspan>
+    <tspan x="56" dy="22">If something can be automated, I&apos;ll probably automate it.</tspan>
+    <tspan x="56" dy="22">I build backend services, bots, web automation,</tspan>
+    <tspan x="56" dy="22">and infrastructure to handle the boring stuff, so I don&apos;t have to.</tspan>
   </text>
 
-  <g transform="translate(56 229.935)">
+  <image href="avatar.gif" x="610" y="70" width="200" height="200" preserveAspectRatio="xMidYMid meet"/>
+
+  <g transform="translate(56 270)">
     <g class="pill p0">
-      <rect width="134" height="20.13" rx="10.065" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
-      <text x="67" y="10.065" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Software Engineer</text>
+      <rect width="134" height="20.13" rx="10.065" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.4"/>
+      <text x="67" y="10.065" fill="#ffffff" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Backend Developer</text>
     </g>
   </g>
 
-  <g transform="translate(198 229.935)">
+  <g transform="translate(198 270)">
     <g class="pill p1">
-      <rect width="194" height="20.13" rx="10.065" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
-      <text x="97" y="10.065" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Indonesia, Riau, Pekanbaru</text>
+      <rect width="194" height="20.13" rx="10.065" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.4"/>
+      <text x="97" y="10.065" fill="#ffffff" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Islamic University of Riau</text>
+    </g>
+  </g>
+
+  <g transform="translate(400 270)">
+    <g class="pill p2">
+      <rect width="154" height="20.13" rx="10.065" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.4"/>
+      <text x="77" y="10.065" fill="#ffffff" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Pekanbaru, Indonesia</text>
     </g>
   </g>
 </svg>
