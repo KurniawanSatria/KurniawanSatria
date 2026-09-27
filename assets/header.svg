@@ -1,30 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
   <title>Kurniawan Satria — Backend Developer</title>
   <style>
-    .name { animation: nameIn 12s ease-out infinite; }
-    .underline { animation: underlineDraw 12s ease-out infinite; transform-origin: left center; }
-    .meta { animation: fadeUp 12s ease-out infinite; animation-delay: 0.3s; }
-    .corner { animation: cornerSlide 12s ease-out infinite; }
+    .name { animation: nameIn 0.9s ease-out both; }
+    .underline { animation: underlineDraw 0.9s ease-out 0.3s both; transform-origin: left center; }
+    .meta { animation: fadeUp 0.9s ease-out 0.5s both; }
+    .corner { animation: cornerSlide 0.9s ease-out both; }
 
     @keyframes nameIn {
-      0%, 4% { opacity: 0; transform: translateY(8px); }
-      14%, 90% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(0); }
+      0% { opacity: 0; transform: translateY(8px); }
+      100% { opacity: 1; transform: translateY(0); }
     }
     @keyframes underlineDraw {
-      0%, 14% { transform: scaleX(0); }
-      24%, 88% { transform: scaleX(1); }
+      0% { transform: scaleX(0); }
       100% { transform: scaleX(1); }
     }
     @keyframes fadeUp {
-      0%, 22% { opacity: 0; transform: translateY(6px); }
-      32%, 90% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(0); }
+      0% { opacity: 0; transform: translateY(6px); }
+      100% { opacity: 1; transform: translateY(0); }
     }
     @keyframes cornerSlide {
-      0%, 8% { opacity: 0; transform: translateX(-8px); }
-      18%, 90% { opacity: 1; transform: translateX(0); }
-      100% { opacity: 0; transform: translateX(0); }
+      0% { opacity: 0; transform: translateX(-8px); }
+      100% { opacity: 0.6; transform: translateX(0); }
     }
   </style>
 
