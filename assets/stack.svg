@@ -1,26 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="Tech stack marquee">
   <title>Tech Stack</title>
   <style>
-    .heading { animation: slidein 12s ease-out infinite; }
-    .underline { animation: bar 12s ease-out infinite; transform-origin: left center; }
-    .meta { animation: fade 12s ease-in-out infinite; }
+    .heading { animation: slidein 0.8s ease-out both; }
+    .underline { animation: bar 0.9s ease-out 0.2s both; transform-origin: left center; }
+    .meta { animation: fade 0.9s ease-in-out 0.3s both; }
     .text { font-family: "Inter", system-ui, sans-serif; font-size: 20px; font-weight: 700; fill: #ffffff; }
 
     @keyframes slidein {
       0% { opacity: 0; transform: translateX(-12px) }
-      8% { opacity: 1; transform: translateX(0) }
-      90% { opacity: 1; transform: translateX(0) }
-      100% { opacity: 0; transform: translateX(0) }
+      100% { opacity: 1; transform: translateX(0) }
     }
     @keyframes bar {
-      0%, 14% { transform: scaleX(0) }
-      24%, 88% { transform: scaleX(1) }
+      0% { transform: scaleX(0) }
       100% { transform: scaleX(1) }
     }
     @keyframes fade {
-      0%, 22% { opacity: 0 }
-      32%, 90% { opacity: 1 }
-      100% { opacity: 0 }
+      0% { opacity: 0 }
+      100% { opacity: 1 }
     }
   </style>
   <defs>
