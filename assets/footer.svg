@@ -1,23 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="160" viewBox="0 0 800 160">
   <title>Connect</title>
   <style>
-    .signoff { animation: signoffIn 12s ease-in-out infinite; }
-    .soc { animation: socfade 12s ease-in-out infinite; }
+    .signoff { animation: signoffIn 1s ease-in-out both; }
+    .soc { animation: socfade 0.9s ease-in-out both; }
     .sf0 { animation-delay: 0.60s }
     .sf1 { animation-delay: 0.68s }
 
     @keyframes signoffIn {
-      0%, 8% { opacity: 0; transform: translateY(4px); }
-      18%, 90% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(0); }
+      0% { opacity: 0; transform: translateY(4px); }
+      100% { opacity: 1; transform: translateY(0); }
     }
     @keyframes socfade {
-      0%, 22% { opacity: 0; }
-      32%, 90% { opacity: 1; }
-      100% { opacity: 0; }
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
 
-    .heart { animation: heartbeat 12s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .heart { animation: heartbeat 1.6s ease-in-out both; transform-box: fill-box; transform-origin: center; }
     .wave-front { animation: drift-front 12s linear infinite; }
     .wave-back { animation: drift-back 12s linear infinite; }
 
