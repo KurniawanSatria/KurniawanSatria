@@ -1,55 +1,19 @@
-### Hey 👋, I'm Saturia
-
-<a href="https://github.com/KurniawanSatria">
-  <img align="left" alt="GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-</a>
-<a href="https://saturia.codes">
-  <img align="left" alt="Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/internetexplorer.svg" />
-</a>
-
-<br />
-<br />
-
-Hi, I'm **Satria**, an **Informatics Engineering student** at **Universitas Islam Riau** from Pekanbaru, Indonesia.
-
-I **love automation way too much**. If something can be automated, I'll probably automate it. I build backend services, bots, web automation, and infrastructure to handle the boring stuff so I don't have to.
-
-<img align="right" alt="GIF" width="350px" src="https://i.pinimg.com/originals/8a/79/26/8a792666583d191567bebcf89b84f625.gif" />
-
-**Talking about me:**
-
-* 👨‍💻 Building backend services, automation tools, and bots
-* 🤖 Turning repetitive tasks into automated workflows
-* ⚙️ Working with Node.js, Bun, Puppeteer, and Lavalink
-* 🐳 Running and managing self-hosted infrastructure with Docker & Linux
-* 🔧 Building and maintaining open-source projects
-* 🌱 Always experimenting with new tools, systems, and weird ideas
-* 💬 Mostly interested in automation, backend engineering, and infrastructure
-* 📍 Based in Pekanbaru, Indonesia
-
-**Languages & Tools:**
-
-<p>
-  <img height="28" src="https://skillicons.dev/icons?i=js,ts,python,php,nodejs,bun,nextjs,express" />
+<p align="center">
+  <img src="assets/header.svg" alt="Header" width="100%">
 </p>
-<p>
-  <img height="28" src="https://skillicons.dev/icons?i=linux,docker,git,github,vscode,mongodb,redis,supabase,firebase" />
-</p>
-
-**A few things I work with:**
-
-```text
-Backend        → Node.js · Bun · Express · REST APIs · API Design
-Automation     → Puppeteer · Web Automation · Bots · AI Agents
-Discord        → Discord.js · Lavalink · Kazagumo · Shoukaku
-Infrastructure → Linux · Docker · Cloud · Self-hosting · Reverse Proxy
-Databases      → MongoDB · Redis · Supabase · Firebase
-DevOps         → Git · GitHub · CI/CD · Docker Compose · Cloudflare
-AI & APIs      → OpenAI-compatible APIs · LLM Routing · Model Integration
-Web            → Next.js · React · TypeScript · JavaScript
-Systems        → Server Orchestration · Monitoring · Networking
-```
 
 <p align="center">
-  <i>If it can be automated, automate it.</i>
+  <img src="assets/about.svg" alt="About" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/tech&stack.svg" alt="Tech Stack" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/gh-stats.svg" alt="GitHub Stats" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/footer.svg" alt="Footer" width="100%">
 </p>
