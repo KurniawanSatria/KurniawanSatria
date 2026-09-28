@@ -52,11 +52,11 @@
   <text class="heading" x="48" y="84" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="36" font-weight="700" letter-spacing="-1.2">Activity.</text>
   <rect class="underline" x="48" y="96" width="181" height="2" fill="#ffffff" rx="1"/>
 
-  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">PLAYER 1   ·   @KURNIAWANSATRIA   ·   317 XP</text>
+  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">PLAYER 1   ·   @KURNIAWANSATRIA   ·   389 XP</text>
 
   <g class="xp">
     <text x="48" y="150" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 3</text>
-    <text x="752" y="150" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">317 / 400 XP — NEXT LVL</text>
+    <text x="752" y="150" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">389 / 400 XP — NEXT LVL</text>
   </g>
   <g class="xp-bar">
     <rect x="48.0" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
@@ -75,16 +75,16 @@
     <rect x="508.2" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="543.6" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="579.0" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
-    <rect x="614.4" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
-    <rect x="649.8" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
-    <rect x="685.2" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
+    <rect x="614.4" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
+    <rect x="649.8" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
+    <rect x="685.2" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="720.6" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
   </g>
 
   <g transform="translate(48 196)">
     <g class="stat s0">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">COMMITS</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">252</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">324</text>
       <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">this year</text>
     </g>
   </g>
@@ -93,7 +93,7 @@
     <g class="stat s1">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">REPOS</text>
       <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">12</text>
-      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">8 indexed</text>
+      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">6 indexed</text>
     </g>
   </g>
 
@@ -116,21 +116,19 @@
   <rect x="48" y="282" width="704" height="6" rx="3" fill="#a3a3a3" fill-opacity="0.2"/>
 
   <g class="lang-bar">
-    <rect x="48" y="282" width="620.928" height="6" rx="3" fill="#ffffff"/>
-    <rect x="668.928" y="282" width="64.064" height="6" rx="3" fill="#737373"/>
-    <rect x="732.992" y="282" width="19.008" height="6" rx="3" fill="#404040"/>
+    <rect x="48.000" y="282" width="621.170" height="6" rx="3" fill="#ffffff"/>
+    <rect x="669.170" y="282" width="64.136" height="6" rx="3" fill="#737373"/>
+    <rect x="733.306" y="282" width="18.694" height="6" rx="3" fill="#404040"/>
   </g>
 
   <g class="legend">
     <rect x="48" y="296" width="8" height="8" rx="2" fill="#ffffff"/>
     <text x="64" y="303" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">JAVASCRIPT  88%</text>
   </g>
-
   <g class="legend">
     <rect x="282.667" y="296" width="8" height="8" rx="2" fill="#737373"/>
     <text x="298.667" y="303" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">CSS  9%</text>
   </g>
-
   <g class="legend">
     <rect x="517.333" y="296" width="8" height="8" rx="2" fill="#404040"/>
     <text x="533.333" y="303" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">HTML  3%</text>
