@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
-  <!-- gh-stats updated 2026-09-29T00:01:07.717Z · 504 XP · LVL 4 -->
+  <!-- gh-stats updated 2026-09-29T20:23:24.449Z · 546 XP · LVL 4 -->
   <title>Activity</title>
   <style>
     .heading { animation: slidein 0.8s ease-out both; }
@@ -53,11 +53,11 @@
   <text class="heading" x="48" y="84" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="36" font-weight="700" letter-spacing="-1.2">Activity.</text>
   <rect class="underline" x="48" y="96" width="181" height="2" fill="#ffffff" rx="1"/>
 
-  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">PLAYER 1   ·   @KURNIAWANSATRIA   ·   504 XP</text>
+  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">PLAYER 1   ·   @KURNIAWANSATRIA   ·   546 XP</text>
 
   <g class="xp">
     <text x="48" y="150" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 4</text>
-    <text x="752" y="150" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">504 / 700 XP — NEXT LVL</text>
+    <text x="752" y="150" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">546 / 700 XP — NEXT LVL</text>
   </g>
   <g class="xp-bar">
     <rect x="48.0" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
@@ -74,8 +74,8 @@
     <rect x="437.4" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="472.8" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="508.2" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
-    <rect x="543.6" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
-    <rect x="579.0" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
+    <rect x="543.6" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
+    <rect x="579.0" y="158" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="614.4" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
     <rect x="649.8" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
     <rect x="685.2" y="158" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
@@ -85,7 +85,7 @@
   <g transform="translate(48 196)">
     <g class="stat s0">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">COMMITS</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">439</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">481</text>
       <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">this year</text>
     </g>
   </g>
