@@ -23,7 +23,7 @@
       100% { opacity: 0.6; transform: translateX(0); }
     }
   </style>
-
+  <rect width="800" height="320" fill="#0A0A0A"/>
   <g class="corner" opacity="0.6">
     <rect x="40" y="42" width="22" height="2" fill="#ffffff"/>
     <rect x="40" y="42" width="2" height="22" fill="#ffffff"/>
