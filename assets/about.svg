@@ -25,7 +25,7 @@
       100% { transform: scaleY(1) }
     }
   </style>
-
+  <rect width="800" height="320" fill="#0A0A0A"/>
   <rect x="32" y="32" width="3" height="256" fill="#ffffff" rx="1.5" class="accentbar"/>
 
   <text class="heading" x="56" y="86" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="32" font-weight="700">Hi, I&apos;m Kurniawan Satria.</text>
