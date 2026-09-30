@@ -69,83 +69,83 @@
       }
     </style>
   <style>
-      .gs-heading { animation: gs-slidein 0.8s ease-out both; }
-      .gs-underline { animation: gs-bar 0.9s ease-out 0.2s both; transform-origin: left center; }
-      .gs-meta { animation: gs-fade 0.9s ease-in-out 0.3s both; }
-      .gs-corner { animation: gs-cornerSlide 0.9s ease-out both; }
-      .gs-stat { animation: gs-fadeUp 0.7s ease-out both; }
-      .gs-s4 { animation-delay: 0.4s }
-      .gs-s5 { animation-delay: 0.5s }
-      .gs-s6 { animation-delay: 0.6s }
-      .gs-s7 { animation-delay: 0.7s }
-      .gs-xp { animation: gs-fadeUp 0.7s ease-out 0.35s both; }
-      .gs-xp-bar { animation: gs-bar 1s ease-out 0.5s both; transform-origin: left center; }
-      .gs-heat-meta { animation: gs-fade 0.9s ease-in-out 0.9s both; }
-      .gs-heat-base { animation: gs-fade 0.9s ease-in-out 0.9s both; }
-      .gs-eat-layer { animation: gs-fade 0.9s ease-in-out 0.9s both; }
-      .gs-in-wrap { animation: gs-infade 14.120s linear 1.800s both; }
-      .gs-lp-wrap { animation: gs-lpshow 0.500s linear 15.420s both; }
-      .gs-gs-snake-in { animation: gs-snake-in 13.620s linear 1.800s both; }
-      .gs-gs-eye-in { animation: gs-eye-in 13.620s linear 1.800s both; }
-      .gs-gs-trail-in { animation: gs-trail-in 13.620s linear 1.800s both; }
-      .gs-gs-snake-lp { animation: gs-snake-lp 13.560s linear 15.420s infinite both; }
-      .gs-gs-eye-lp { animation: gs-eye-lp 13.560s linear 15.420s infinite both; }
-      .gs-gs-trail-lp { animation: gs-trail-lp 13.560s linear 15.420s infinite both; }
-      @keyframes gs-snake-in {
-        0% { stroke-dashoffset: 79.698 }
-        100% { stroke-dashoffset: -2935.547 }
-      }
-      @keyframes gs-eye-in {
-        0% { stroke-dashoffset: 3.600 }
-        100% { stroke-dashoffset: -3011.645 }
-      }
-      @keyframes gs-trail-in {
-        0% { stroke-dashoffset: 180.762 }
-        100% { stroke-dashoffset: -2834.483 }
-      }
-      @keyframes gs-snake-lp {
-        0% { stroke-dashoffset: 0 }
-        100% { stroke-dashoffset: -3001.962 }
-      }
-      @keyframes gs-eye-lp {
-        0% { stroke-dashoffset: 3.600 }
-        100% { stroke-dashoffset: -2998.362 }
-      }
-      @keyframes gs-trail-lp {
-        0% { stroke-dashoffset: 180.762 }
-        100% { stroke-dashoffset: -2821.200 }
-      }
-      @keyframes gs-infade {
-        0% { opacity: 1 }
-        96.459% { opacity: 1 }
-        100% { opacity: 0 }
-      }
-      @keyframes gs-lpshow {
-        0% { opacity: 0 }
-        100% { opacity: 1 }
-      }
-  
-      @keyframes gs-slidein {
-        0% { opacity: 0; transform: translateX(-12px) }
-        100% { opacity: 1; transform: translateX(0) }
-      }
-      @keyframes gs-bar {
-        0% { transform: scaleX(0) }
-        100% { transform: scaleX(1) }
-      }
-      @keyframes gs-fade {
-        0% { opacity: 0 }
-        100% { opacity: 1 }
-      }
-      @keyframes gs-fadeUp {
-        0% { opacity: 0; transform: translateY(8px) }
-        100% { opacity: 1; transform: translateY(0) }
-      }
-      @keyframes gs-cornerSlide {
-        0% { opacity: 0; transform: translateX(-8px) }
-        100% { opacity: 0.6; transform: translateX(0) }
-      }
-    </style>
+    .gs-heading { animation: gs-slidein 0.8s ease-out both; }
+    .gs-underline { animation: gs-bar 0.9s ease-out 0.2s both; transform-origin: left center; }
+    .gs-meta { animation: gs-fade 0.9s ease-in-out 0.3s both; }
+    .gs-corner { animation: gs-cornerSlide 0.9s ease-out both; }
+    .gs-stat { animation: gs-fadeUp 0.7s ease-out both; }
+    .gs-s4 { animation-delay: 0.4s }
+    .gs-s5 { animation-delay: 0.5s }
+    .gs-s6 { animation-delay: 0.6s }
+    .gs-s7 { animation-delay: 0.7s }
+    .gs-xp { animation: gs-fadeUp 0.7s ease-out 0.35s both; }
+    .gs-xp-bar { animation: gs-bar 1s ease-out 0.5s both; transform-origin: left center; }
+    .gs-heat-meta { animation: gs-fade 0.9s ease-in-out 0.9s both; }
+    .gs-heat-base { animation: gs-fade 0.9s ease-in-out 0.9s both; }
+    .gs-eat-layer { animation: gs-fade 0.9s ease-in-out 0.9s both; }
+    .gs-in-wrap { animation: gs-infade 14.120s linear 1.800s both; }
+    .gs-lp-wrap { animation: gs-lpshow 0.500s linear 15.420s both; }
+    .gs-snake-in { animation: gs-snake-in 13.620s linear 1.800s both; }
+    .gs-eye-in { animation: gs-eye-in 13.620s linear 1.800s both; }
+    .gs-trail-in { animation: gs-trail-in 13.620s linear 1.800s both; }
+    .gs-snake-lp { animation: gs-snake-lp 13.560s linear 15.420s infinite both; }
+    .gs-eye-lp { animation: gs-eye-lp 13.560s linear 15.420s infinite both; }
+    .gs-trail-lp { animation: gs-trail-lp 13.560s linear 15.420s infinite both; }
+    @keyframes gs-snake-in {
+      0% { stroke-dashoffset: 79.698 }
+      100% { stroke-dashoffset: -2935.547 }
+    }
+    @keyframes gs-eye-in {
+      0% { stroke-dashoffset: 3.600 }
+      100% { stroke-dashoffset: -3011.645 }
+    }
+    @keyframes gs-trail-in {
+      0% { stroke-dashoffset: 180.762 }
+      100% { stroke-dashoffset: -2834.483 }
+    }
+    @keyframes gs-snake-lp {
+      0% { stroke-dashoffset: 0 }
+      100% { stroke-dashoffset: -3001.962 }
+    }
+    @keyframes gs-eye-lp {
+      0% { stroke-dashoffset: 3.600 }
+      100% { stroke-dashoffset: -2998.362 }
+    }
+    @keyframes gs-trail-lp {
+      0% { stroke-dashoffset: 180.762 }
+      100% { stroke-dashoffset: -2821.200 }
+    }
+    @keyframes gs-infade {
+      0% { opacity: 1 }
+      96.459% { opacity: 1 }
+      100% { opacity: 0 }
+    }
+    @keyframes gs-lpshow {
+      0% { opacity: 0 }
+      100% { opacity: 1 }
+    }
+
+    @keyframes gs-slidein {
+      0% { opacity: 0; transform: translateX(-12px) }
+      100% { opacity: 1; transform: translateX(0) }
+    }
+    @keyframes gs-bar {
+      0% { transform: scaleX(0) }
+      100% { transform: scaleX(1) }
+    }
+    @keyframes gs-fade {
+      0% { opacity: 0 }
+      100% { opacity: 1 }
+    }
+    @keyframes gs-fadeUp {
+      0% { opacity: 0; transform: translateY(8px) }
+      100% { opacity: 1; transform: translateY(0) }
+    }
+    @keyframes gs-cornerSlide {
+      0% { opacity: 0; transform: translateX(-8px) }
+      100% { opacity: 0.6; transform: translateX(0) }
+    }
+  </style>
   <style>
       .ft-signoff { animation: ft-signoffIn 1s ease-in-out both; }
       .ft-soc { animation: ft-socfade 0.9s ease-in-out both; }
@@ -319,8 +319,6 @@
   </g>
   </svg>
   <svg x="0" y="920" width="800" height="430" viewBox="0 0 800 430">
-  <title>GitHub Stats</title>
-  
 
   <defs>
     <rect id="gs-gs-c" width="10.4" height="10.4" rx="2"/>
@@ -336,7 +334,7 @@
   <text class="gs-heading" x="48" y="84" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="36" font-weight="700" letter-spacing="-1.2">GitHub Stats.</text>
   <rect class="gs-underline" x="48" y="96" width="262" height="2" fill="#ffffff" rx="1"/>
 
-  <text class="gs-meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   651 XP</text>
+  <text class="gs-meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   657 XP</text>
 
   <g class="gs-heat-meta">
     <text x="48" y="152" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">568 CONTRIBUTIONS · LAST 12 MONTHS</text>
@@ -393,7 +391,7 @@
 
   <g class="gs-xp">
     <text x="48" y="370" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 4</text>
-    <text x="752" y="370" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">651 / 700 XP — NEXT LVL</text>
+    <text x="752" y="370" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">657 / 700 XP — NEXT LVL</text>
   </g>
   <g class="gs-xp-bar">
     <rect x="48.0" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
@@ -417,7 +415,7 @@
     <rect x="685.2" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="720.6" y="378" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
   </g>
-  </svg>
+</svg>
   <svg x="0" y="1350" width="800" height="160" viewBox="0 0 800 160">
   <title>Connect</title>
   
