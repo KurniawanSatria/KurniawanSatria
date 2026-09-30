@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="466" viewBox="0 0 800 466">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
+  <!-- gh-stats updated 2026-09-30T00:00:51.419Z · 598 XP · LVL 4 -->
   <title>Activity</title>
   <style>
     .heading { animation: slidein 0.8s ease-out both; }
@@ -6,40 +7,14 @@
     .meta { animation: fade 0.9s ease-in-out 0.3s both; }
     .corner { animation: cornerSlide 0.9s ease-out both; }
     .stat { animation: fadeUp 0.7s ease-out both; }
-    .s4 { animation-delay: 0.4s }
-    .s5 { animation-delay: 0.5s }
-    .s6 { animation-delay: 0.6s }
-    .s7 { animation-delay: 0.7s }
+    .s0 { animation-delay: 0.4s }
+    .s1 { animation-delay: 0.5s }
+    .s2 { animation-delay: 0.6s }
+    .s3 { animation-delay: 0.7s }
     .xp { animation: fadeUp 0.7s ease-out 0.35s both; }
     .xp-bar { animation: bar 1s ease-out 0.5s both; transform-origin: left center; }
-    .lang-bar { animation: bar 1s ease-out 1.2s both; transform-origin: left center; }
-    .legend { animation: fade 0.9s ease-in-out 1.4s both; }
-    .heat-meta { animation: fade 0.9s ease-in-out 0.9s both; }
-    .heat-base { animation: fade 0.9s ease-in-out 0.9s both; }
-    .eat-layer { animation: eatfade 19.820s linear 1.8s infinite both; }
-    .snake { animation: snake 19.820s linear 1.8s infinite both; }
-    .eye { animation: eye 19.820s linear 1.8s infinite both; }
-    .trail { animation: trail 19.820s linear 1.8s infinite both; }
-    @keyframes eatfade {
-      0% { opacity: 0 }
-      4.541% { opacity: 1 }
-      100% { opacity: 1 }
-    }
-    @keyframes snake {
-      0% { stroke-dashoffset: 79.698 }
-      89.909% { stroke-dashoffset: -3865.358 }
-      100% { stroke-dashoffset: -3865.358 }
-    }
-    @keyframes eye {
-      0% { stroke-dashoffset: 3.600 }
-      89.909% { stroke-dashoffset: -3941.457 }
-      100% { stroke-dashoffset: -3941.457 }
-    }
-    @keyframes trail {
-      0% { stroke-dashoffset: 3860.158 }
-      87.974% { stroke-dashoffset: 0 }
-      100% { stroke-dashoffset: 0 }
-    }
+    .lang-bar { animation: bar 1s ease-out 0.7s both; transform-origin: left center; }
+    .legend { animation: fade 0.9s ease-in-out 0.9s both; }
 
     @keyframes slidein {
       0% { opacity: 0; transform: translateX(-12px) }
@@ -63,14 +38,6 @@
     }
   </style>
 
-  <defs>
-    <rect id="gs-c" width="10.4" height="10.4" rx="2"/>
-    <clipPath id="gs-clip"><rect x="46" y="300" width="708" height="94.98"/></clipPath>
-    <mask id="gs-eat" maskUnits="userSpaceOnUse" x="0" y="292" width="800" height="112.98">
-      <rect x="0" y="292" width="800" height="112.98" fill="#ffffff"/>
-      <path class="trail" d="M39.92 307.20L79.77 307.20L79.77 320.48L93.05 320.48L93.05 333.77L438.41 333.77L438.41 373.62L464.97 373.62L464.97 360.33L451.69 360.33L451.69 307.20L464.97 307.20L464.97 386.90L438.41 386.90L438.41 360.33L451.69 360.33L451.69 333.77L478.26 333.77L478.26 307.20L518.11 307.20L518.11 347.05L504.82 347.05L504.82 373.62L491.54 373.62L491.54 386.90L531.39 386.90L531.39 360.33L544.67 360.33L544.67 386.90L571.24 386.90L571.24 360.33L584.52 360.33L584.52 347.05L571.24 347.05L571.24 320.48L544.67 320.48L544.67 347.05L504.82 347.05L504.82 373.62L478.26 373.62L478.26 386.90L425.12 386.90L425.12 347.05L451.69 347.05L451.69 333.77L464.97 333.77L464.97 320.48L704.07 320.48L704.07 347.05L690.78 347.05L690.78 333.77L664.22 333.77L664.22 386.90L677.50 386.90L677.50 373.62L704.07 373.62L704.07 386.90L717.35 386.90L717.35 360.33L730.63 360.33L730.63 373.62L743.92 373.62L743.92 333.77L717.35 333.77L717.35 347.05L704.07 347.05L704.07 320.48L730.63 320.48L730.63 307.20L743.92 307.20L743.92 360.33L637.65 360.33L637.65 307.20L358.71 307.20L358.71 320.48L385.28 320.48L385.28 386.90L730.63 386.90L730.63 373.62L717.35 373.62L717.35 347.05L39.92 347.05" fill="none" stroke="#000000" stroke-width="12.4" stroke-dasharray="3865.358 3865.358" stroke-dashoffset="3865.358"/>
-    </mask>
-  </defs>
   <g class="corner" opacity="0.6">
     <rect x="40" y="42" width="22" height="2" fill="#ffffff"/>
     <rect x="40" y="42" width="2" height="22" fill="#ffffff"/>
@@ -86,7 +53,7 @@
   <text class="heading" x="48" y="84" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="36" font-weight="700" letter-spacing="-1.2">Activity.</text>
   <rect class="underline" x="48" y="96" width="181" height="2" fill="#ffffff" rx="1"/>
 
-  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   598 XP</text>
+  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">PLAYER 1   ·   @KURNIAWANSATRIA   ·   598 XP</text>
 
   <g class="xp">
     <text x="48" y="150" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 4</text>
@@ -116,69 +83,55 @@
   </g>
 
   <g transform="translate(48 196)">
-    <g class="stat s4">
-      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">CURRENT STREAK</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">7</text>
-      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">days</text>
+    <g class="stat s0">
+      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">COMMITS</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">533</text>
+      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">this year</text>
     </g>
   </g>
 
   <g transform="translate(230 196)">
-    <g class="stat s5">
-      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">LONGEST STREAK</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">7</text>
-      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">days · all time</text>
+    <g class="stat s1">
+      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">REPOS</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">12</text>
+      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">7 indexed</text>
     </g>
   </g>
 
   <g transform="translate(412 196)">
-    <g class="stat s6">
-      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">ACTIVE DAYS</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">68</text>
-      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">all time</text>
+    <g class="stat s2">
+      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">PRS</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">1</text>
+      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">this year</text>
     </g>
   </g>
 
   <g transform="translate(594 196)">
-    <g class="stat s7">
-      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">BEST DAY</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">81</text>
-      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">contributions</text>
+    <g class="stat s3">
+      <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">REVIEWS</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">0</text>
+      <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">locked</text>
     </g>
   </g>
 
-  <g class="heat-meta">
-    <text x="48" y="290" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">518 CONTRIBUTIONS · LAST 12 MONTHS</text>
-    <text x="624" y="290" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4" text-anchor="end">LESS</text>
-    <rect x="632" y="281" width="10" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.12"/><rect x="646" y="281" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.3"/><rect x="660" y="281" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.5"/><rect x="674" y="281" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.75"/><rect x="688" y="281" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="1"/>
-    <text x="706" y="290" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">MORE</text>
-  </g>
-  <g class="heat-base" fill="#a3a3a3" fill-opacity="0.12"><use href="#gs-c" x="48.00" y="302.00"/><use href="#gs-c" x="48.00" y="315.28"/><use href="#gs-c" x="48.00" y="328.57"/><use href="#gs-c" x="48.00" y="341.85"/><use href="#gs-c" x="48.00" y="355.13"/><use href="#gs-c" x="48.00" y="368.42"/><use href="#gs-c" x="48.00" y="381.70"/><use href="#gs-c" x="61.28" y="302.00"/><use href="#gs-c" x="61.28" y="315.28"/><use href="#gs-c" x="61.28" y="328.57"/><use href="#gs-c" x="61.28" y="341.85"/><use href="#gs-c" x="61.28" y="355.13"/><use href="#gs-c" x="61.28" y="368.42"/><use href="#gs-c" x="61.28" y="381.70"/><use href="#gs-c" x="74.57" y="302.00"/><use href="#gs-c" x="74.57" y="315.28"/><use href="#gs-c" x="74.57" y="328.57"/><use href="#gs-c" x="74.57" y="341.85"/><use href="#gs-c" x="74.57" y="355.13"/><use href="#gs-c" x="74.57" y="368.42"/><use href="#gs-c" x="74.57" y="381.70"/><use href="#gs-c" x="87.85" y="302.00"/><use href="#gs-c" x="87.85" y="315.28"/><use href="#gs-c" x="87.85" y="328.57"/><use href="#gs-c" x="87.85" y="341.85"/><use href="#gs-c" x="87.85" y="355.13"/><use href="#gs-c" x="87.85" y="368.42"/><use href="#gs-c" x="87.85" y="381.70"/><use href="#gs-c" x="101.13" y="302.00"/><use href="#gs-c" x="101.13" y="315.28"/><use href="#gs-c" x="101.13" y="328.57"/><use href="#gs-c" x="101.13" y="341.85"/><use href="#gs-c" x="101.13" y="355.13"/><use href="#gs-c" x="101.13" y="368.42"/><use href="#gs-c" x="101.13" y="381.70"/><use href="#gs-c" x="114.42" y="302.00"/><use href="#gs-c" x="114.42" y="315.28"/><use href="#gs-c" x="114.42" y="328.57"/><use href="#gs-c" x="114.42" y="341.85"/><use href="#gs-c" x="114.42" y="355.13"/><use href="#gs-c" x="114.42" y="368.42"/><use href="#gs-c" x="114.42" y="381.70"/><use href="#gs-c" x="127.70" y="302.00"/><use href="#gs-c" x="127.70" y="315.28"/><use href="#gs-c" x="127.70" y="328.57"/><use href="#gs-c" x="127.70" y="341.85"/><use href="#gs-c" x="127.70" y="355.13"/><use href="#gs-c" x="127.70" y="368.42"/><use href="#gs-c" x="127.70" y="381.70"/><use href="#gs-c" x="140.98" y="302.00"/><use href="#gs-c" x="140.98" y="315.28"/><use href="#gs-c" x="140.98" y="328.57"/><use href="#gs-c" x="140.98" y="341.85"/><use href="#gs-c" x="140.98" y="355.13"/><use href="#gs-c" x="140.98" y="368.42"/><use href="#gs-c" x="140.98" y="381.70"/><use href="#gs-c" x="154.26" y="302.00"/><use href="#gs-c" x="154.26" y="315.28"/><use href="#gs-c" x="154.26" y="328.57"/><use href="#gs-c" x="154.26" y="341.85"/><use href="#gs-c" x="154.26" y="355.13"/><use href="#gs-c" x="154.26" y="368.42"/><use href="#gs-c" x="154.26" y="381.70"/><use href="#gs-c" x="167.55" y="302.00"/><use href="#gs-c" x="167.55" y="315.28"/><use href="#gs-c" x="167.55" y="328.57"/><use href="#gs-c" x="167.55" y="341.85"/><use href="#gs-c" x="167.55" y="355.13"/><use href="#gs-c" x="167.55" y="368.42"/><use href="#gs-c" x="167.55" y="381.70"/><use href="#gs-c" x="180.83" y="302.00"/><use href="#gs-c" x="180.83" y="315.28"/><use href="#gs-c" x="180.83" y="328.57"/><use href="#gs-c" x="180.83" y="341.85"/><use href="#gs-c" x="180.83" y="355.13"/><use href="#gs-c" x="180.83" y="368.42"/><use href="#gs-c" x="180.83" y="381.70"/><use href="#gs-c" x="194.11" y="302.00"/><use href="#gs-c" x="194.11" y="315.28"/><use href="#gs-c" x="194.11" y="328.57"/><use href="#gs-c" x="194.11" y="341.85"/><use href="#gs-c" x="194.11" y="355.13"/><use href="#gs-c" x="194.11" y="368.42"/><use href="#gs-c" x="194.11" y="381.70"/><use href="#gs-c" x="207.40" y="302.00"/><use href="#gs-c" x="207.40" y="315.28"/><use href="#gs-c" x="207.40" y="328.57"/><use href="#gs-c" x="207.40" y="341.85"/><use href="#gs-c" x="207.40" y="355.13"/><use href="#gs-c" x="207.40" y="368.42"/><use href="#gs-c" x="207.40" y="381.70"/><use href="#gs-c" x="220.68" y="302.00"/><use href="#gs-c" x="220.68" y="315.28"/><use href="#gs-c" x="220.68" y="328.57"/><use href="#gs-c" x="220.68" y="341.85"/><use href="#gs-c" x="220.68" y="355.13"/><use href="#gs-c" x="220.68" y="368.42"/><use href="#gs-c" x="220.68" y="381.70"/><use href="#gs-c" x="233.96" y="302.00"/><use href="#gs-c" x="233.96" y="315.28"/><use href="#gs-c" x="233.96" y="328.57"/><use href="#gs-c" x="233.96" y="341.85"/><use href="#gs-c" x="233.96" y="355.13"/><use href="#gs-c" x="233.96" y="368.42"/><use href="#gs-c" x="233.96" y="381.70"/><use href="#gs-c" x="247.25" y="302.00"/><use href="#gs-c" x="247.25" y="315.28"/><use href="#gs-c" x="247.25" y="328.57"/><use href="#gs-c" x="247.25" y="341.85"/><use href="#gs-c" x="247.25" y="355.13"/><use href="#gs-c" x="247.25" y="368.42"/><use href="#gs-c" x="247.25" y="381.70"/><use href="#gs-c" x="260.53" y="302.00"/><use href="#gs-c" x="260.53" y="315.28"/><use href="#gs-c" x="260.53" y="328.57"/><use href="#gs-c" x="260.53" y="341.85"/><use href="#gs-c" x="260.53" y="355.13"/><use href="#gs-c" x="260.53" y="368.42"/><use href="#gs-c" x="260.53" y="381.70"/><use href="#gs-c" x="273.81" y="302.00"/><use href="#gs-c" x="273.81" y="315.28"/><use href="#gs-c" x="273.81" y="328.57"/><use href="#gs-c" x="273.81" y="341.85"/><use href="#gs-c" x="273.81" y="355.13"/><use href="#gs-c" x="273.81" y="368.42"/><use href="#gs-c" x="273.81" y="381.70"/><use href="#gs-c" x="287.09" y="302.00"/><use href="#gs-c" x="287.09" y="315.28"/><use href="#gs-c" x="287.09" y="328.57"/><use href="#gs-c" x="287.09" y="341.85"/><use href="#gs-c" x="287.09" y="355.13"/><use href="#gs-c" x="287.09" y="368.42"/><use href="#gs-c" x="287.09" y="381.70"/><use href="#gs-c" x="300.38" y="302.00"/><use href="#gs-c" x="300.38" y="315.28"/><use href="#gs-c" x="300.38" y="328.57"/><use href="#gs-c" x="300.38" y="341.85"/><use href="#gs-c" x="300.38" y="355.13"/><use href="#gs-c" x="300.38" y="368.42"/><use href="#gs-c" x="300.38" y="381.70"/><use href="#gs-c" x="313.66" y="302.00"/><use href="#gs-c" x="313.66" y="315.28"/><use href="#gs-c" x="313.66" y="328.57"/><use href="#gs-c" x="313.66" y="341.85"/><use href="#gs-c" x="313.66" y="355.13"/><use href="#gs-c" x="313.66" y="368.42"/><use href="#gs-c" x="313.66" y="381.70"/><use href="#gs-c" x="326.94" y="302.00"/><use href="#gs-c" x="326.94" y="315.28"/><use href="#gs-c" x="326.94" y="328.57"/><use href="#gs-c" x="326.94" y="341.85"/><use href="#gs-c" x="326.94" y="355.13"/><use href="#gs-c" x="326.94" y="368.42"/><use href="#gs-c" x="326.94" y="381.70"/><use href="#gs-c" x="340.23" y="302.00"/><use href="#gs-c" x="340.23" y="315.28"/><use href="#gs-c" x="340.23" y="328.57"/><use href="#gs-c" x="340.23" y="341.85"/><use href="#gs-c" x="340.23" y="355.13"/><use href="#gs-c" x="340.23" y="368.42"/><use href="#gs-c" x="340.23" y="381.70"/><use href="#gs-c" x="353.51" y="302.00"/><use href="#gs-c" x="353.51" y="315.28"/><use href="#gs-c" x="353.51" y="328.57"/><use href="#gs-c" x="353.51" y="341.85"/><use href="#gs-c" x="353.51" y="355.13"/><use href="#gs-c" x="353.51" y="368.42"/><use href="#gs-c" x="353.51" y="381.70"/><use href="#gs-c" x="366.79" y="302.00"/><use href="#gs-c" x="366.79" y="315.28"/><use href="#gs-c" x="366.79" y="328.57"/><use href="#gs-c" x="366.79" y="341.85"/><use href="#gs-c" x="366.79" y="355.13"/><use href="#gs-c" x="366.79" y="368.42"/><use href="#gs-c" x="366.79" y="381.70"/><use href="#gs-c" x="380.08" y="302.00"/><use href="#gs-c" x="380.08" y="315.28"/><use href="#gs-c" x="380.08" y="328.57"/><use href="#gs-c" x="380.08" y="341.85"/><use href="#gs-c" x="380.08" y="355.13"/><use href="#gs-c" x="380.08" y="368.42"/><use href="#gs-c" x="380.08" y="381.70"/><use href="#gs-c" x="393.36" y="302.00"/><use href="#gs-c" x="393.36" y="315.28"/><use href="#gs-c" x="393.36" y="328.57"/><use href="#gs-c" x="393.36" y="341.85"/><use href="#gs-c" x="393.36" y="355.13"/><use href="#gs-c" x="393.36" y="368.42"/><use href="#gs-c" x="393.36" y="381.70"/><use href="#gs-c" x="406.64" y="302.00"/><use href="#gs-c" x="406.64" y="315.28"/><use href="#gs-c" x="406.64" y="328.57"/><use href="#gs-c" x="406.64" y="341.85"/><use href="#gs-c" x="406.64" y="355.13"/><use href="#gs-c" x="406.64" y="368.42"/><use href="#gs-c" x="406.64" y="381.70"/><use href="#gs-c" x="419.92" y="302.00"/><use href="#gs-c" x="419.92" y="315.28"/><use href="#gs-c" x="419.92" y="328.57"/><use href="#gs-c" x="419.92" y="341.85"/><use href="#gs-c" x="419.92" y="355.13"/><use href="#gs-c" x="419.92" y="368.42"/><use href="#gs-c" x="419.92" y="381.70"/><use href="#gs-c" x="433.21" y="302.00"/><use href="#gs-c" x="433.21" y="315.28"/><use href="#gs-c" x="433.21" y="328.57"/><use href="#gs-c" x="433.21" y="341.85"/><use href="#gs-c" x="433.21" y="355.13"/><use href="#gs-c" x="433.21" y="368.42"/><use href="#gs-c" x="433.21" y="381.70"/><use href="#gs-c" x="446.49" y="302.00"/><use href="#gs-c" x="446.49" y="315.28"/><use href="#gs-c" x="446.49" y="328.57"/><use href="#gs-c" x="446.49" y="341.85"/><use href="#gs-c" x="446.49" y="355.13"/><use href="#gs-c" x="446.49" y="368.42"/><use href="#gs-c" x="446.49" y="381.70"/><use href="#gs-c" x="459.77" y="302.00"/><use href="#gs-c" x="459.77" y="315.28"/><use href="#gs-c" x="459.77" y="328.57"/><use href="#gs-c" x="459.77" y="341.85"/><use href="#gs-c" x="459.77" y="355.13"/><use href="#gs-c" x="459.77" y="368.42"/><use href="#gs-c" x="459.77" y="381.70"/><use href="#gs-c" x="473.06" y="302.00"/><use href="#gs-c" x="473.06" y="315.28"/><use href="#gs-c" x="473.06" y="328.57"/><use href="#gs-c" x="473.06" y="341.85"/><use href="#gs-c" x="473.06" y="355.13"/><use href="#gs-c" x="473.06" y="368.42"/><use href="#gs-c" x="473.06" y="381.70"/><use href="#gs-c" x="486.34" y="302.00"/><use href="#gs-c" x="486.34" y="315.28"/><use href="#gs-c" x="486.34" y="328.57"/><use href="#gs-c" x="486.34" y="341.85"/><use href="#gs-c" x="486.34" y="355.13"/><use href="#gs-c" x="486.34" y="368.42"/><use href="#gs-c" x="486.34" y="381.70"/><use href="#gs-c" x="499.62" y="302.00"/><use href="#gs-c" x="499.62" y="315.28"/><use href="#gs-c" x="499.62" y="328.57"/><use href="#gs-c" x="499.62" y="341.85"/><use href="#gs-c" x="499.62" y="355.13"/><use href="#gs-c" x="499.62" y="368.42"/><use href="#gs-c" x="499.62" y="381.70"/><use href="#gs-c" x="512.91" y="302.00"/><use href="#gs-c" x="512.91" y="315.28"/><use href="#gs-c" x="512.91" y="328.57"/><use href="#gs-c" x="512.91" y="341.85"/><use href="#gs-c" x="512.91" y="355.13"/><use href="#gs-c" x="512.91" y="368.42"/><use href="#gs-c" x="512.91" y="381.70"/><use href="#gs-c" x="526.19" y="302.00"/><use href="#gs-c" x="526.19" y="315.28"/><use href="#gs-c" x="526.19" y="328.57"/><use href="#gs-c" x="526.19" y="341.85"/><use href="#gs-c" x="526.19" y="355.13"/><use href="#gs-c" x="526.19" y="368.42"/><use href="#gs-c" x="526.19" y="381.70"/><use href="#gs-c" x="539.47" y="302.00"/><use href="#gs-c" x="539.47" y="315.28"/><use href="#gs-c" x="539.47" y="328.57"/><use href="#gs-c" x="539.47" y="341.85"/><use href="#gs-c" x="539.47" y="355.13"/><use href="#gs-c" x="539.47" y="368.42"/><use href="#gs-c" x="539.47" y="381.70"/><use href="#gs-c" x="552.75" y="302.00"/><use href="#gs-c" x="552.75" y="315.28"/><use href="#gs-c" x="552.75" y="328.57"/><use href="#gs-c" x="552.75" y="341.85"/><use href="#gs-c" x="552.75" y="355.13"/><use href="#gs-c" x="552.75" y="368.42"/><use href="#gs-c" x="552.75" y="381.70"/><use href="#gs-c" x="566.04" y="302.00"/><use href="#gs-c" x="566.04" y="315.28"/><use href="#gs-c" x="566.04" y="328.57"/><use href="#gs-c" x="566.04" y="341.85"/><use href="#gs-c" x="566.04" y="355.13"/><use href="#gs-c" x="566.04" y="368.42"/><use href="#gs-c" x="566.04" y="381.70"/><use href="#gs-c" x="579.32" y="302.00"/><use href="#gs-c" x="579.32" y="315.28"/><use href="#gs-c" x="579.32" y="328.57"/><use href="#gs-c" x="579.32" y="341.85"/><use href="#gs-c" x="579.32" y="355.13"/><use href="#gs-c" x="579.32" y="368.42"/><use href="#gs-c" x="579.32" y="381.70"/><use href="#gs-c" x="592.60" y="302.00"/><use href="#gs-c" x="592.60" y="315.28"/><use href="#gs-c" x="592.60" y="328.57"/><use href="#gs-c" x="592.60" y="341.85"/><use href="#gs-c" x="592.60" y="355.13"/><use href="#gs-c" x="592.60" y="368.42"/><use href="#gs-c" x="592.60" y="381.70"/><use href="#gs-c" x="605.89" y="302.00"/><use href="#gs-c" x="605.89" y="315.28"/><use href="#gs-c" x="605.89" y="328.57"/><use href="#gs-c" x="605.89" y="341.85"/><use href="#gs-c" x="605.89" y="355.13"/><use href="#gs-c" x="605.89" y="368.42"/><use href="#gs-c" x="605.89" y="381.70"/><use href="#gs-c" x="619.17" y="302.00"/><use href="#gs-c" x="619.17" y="315.28"/><use href="#gs-c" x="619.17" y="328.57"/><use href="#gs-c" x="619.17" y="341.85"/><use href="#gs-c" x="619.17" y="355.13"/><use href="#gs-c" x="619.17" y="368.42"/><use href="#gs-c" x="619.17" y="381.70"/><use href="#gs-c" x="632.45" y="302.00"/><use href="#gs-c" x="632.45" y="315.28"/><use href="#gs-c" x="632.45" y="328.57"/><use href="#gs-c" x="632.45" y="341.85"/><use href="#gs-c" x="632.45" y="355.13"/><use href="#gs-c" x="632.45" y="368.42"/><use href="#gs-c" x="632.45" y="381.70"/><use href="#gs-c" x="645.74" y="302.00"/><use href="#gs-c" x="645.74" y="315.28"/><use href="#gs-c" x="645.74" y="328.57"/><use href="#gs-c" x="645.74" y="341.85"/><use href="#gs-c" x="645.74" y="355.13"/><use href="#gs-c" x="645.74" y="368.42"/><use href="#gs-c" x="645.74" y="381.70"/><use href="#gs-c" x="659.02" y="302.00"/><use href="#gs-c" x="659.02" y="315.28"/><use href="#gs-c" x="659.02" y="328.57"/><use href="#gs-c" x="659.02" y="341.85"/><use href="#gs-c" x="659.02" y="355.13"/><use href="#gs-c" x="659.02" y="368.42"/><use href="#gs-c" x="659.02" y="381.70"/><use href="#gs-c" x="672.30" y="302.00"/><use href="#gs-c" x="672.30" y="315.28"/><use href="#gs-c" x="672.30" y="328.57"/><use href="#gs-c" x="672.30" y="341.85"/><use href="#gs-c" x="672.30" y="355.13"/><use href="#gs-c" x="672.30" y="368.42"/><use href="#gs-c" x="672.30" y="381.70"/><use href="#gs-c" x="685.58" y="302.00"/><use href="#gs-c" x="685.58" y="315.28"/><use href="#gs-c" x="685.58" y="328.57"/><use href="#gs-c" x="685.58" y="341.85"/><use href="#gs-c" x="685.58" y="355.13"/><use href="#gs-c" x="685.58" y="368.42"/><use href="#gs-c" x="685.58" y="381.70"/><use href="#gs-c" x="698.87" y="302.00"/><use href="#gs-c" x="698.87" y="315.28"/><use href="#gs-c" x="698.87" y="328.57"/><use href="#gs-c" x="698.87" y="341.85"/><use href="#gs-c" x="698.87" y="355.13"/><use href="#gs-c" x="698.87" y="368.42"/><use href="#gs-c" x="698.87" y="381.70"/><use href="#gs-c" x="712.15" y="302.00"/><use href="#gs-c" x="712.15" y="315.28"/><use href="#gs-c" x="712.15" y="328.57"/><use href="#gs-c" x="712.15" y="341.85"/><use href="#gs-c" x="712.15" y="355.13"/><use href="#gs-c" x="712.15" y="368.42"/><use href="#gs-c" x="712.15" y="381.70"/><use href="#gs-c" x="725.43" y="302.00"/><use href="#gs-c" x="725.43" y="315.28"/><use href="#gs-c" x="725.43" y="328.57"/><use href="#gs-c" x="725.43" y="341.85"/><use href="#gs-c" x="725.43" y="355.13"/><use href="#gs-c" x="725.43" y="368.42"/><use href="#gs-c" x="725.43" y="381.70"/><use href="#gs-c" x="738.72" y="302.00"/><use href="#gs-c" x="738.72" y="315.28"/><use href="#gs-c" x="738.72" y="328.57"/><use href="#gs-c" x="738.72" y="341.85"/></g>
-  <g class="eat-layer" mask="url(#gs-eat)" fill="#ffffff"><use href="#gs-c" x="340.23" y="328.57" fill-opacity="0.3"/><use href="#gs-c" x="353.51" y="302.00" fill-opacity="0.75"/><use href="#gs-c" x="366.79" y="341.85" fill-opacity="0.3"/><use href="#gs-c" x="419.92" y="381.70" fill-opacity="1"/><use href="#gs-c" x="433.21" y="328.57" fill-opacity="1"/><use href="#gs-c" x="433.21" y="341.85" fill-opacity="0.75"/><use href="#gs-c" x="433.21" y="355.13" fill-opacity="0.75"/><use href="#gs-c" x="433.21" y="368.42" fill-opacity="1"/><use href="#gs-c" x="433.21" y="381.70" fill-opacity="1"/><use href="#gs-c" x="446.49" y="302.00" fill-opacity="0.75"/><use href="#gs-c" x="446.49" y="315.28" fill-opacity="0.5"/><use href="#gs-c" x="446.49" y="341.85" fill-opacity="0.75"/><use href="#gs-c" x="446.49" y="355.13" fill-opacity="0.5"/><use href="#gs-c" x="446.49" y="368.42" fill-opacity="1"/><use href="#gs-c" x="459.77" y="302.00" fill-opacity="0.5"/><use href="#gs-c" x="459.77" y="328.57" fill-opacity="1"/><use href="#gs-c" x="459.77" y="341.85" fill-opacity="0.3"/><use href="#gs-c" x="459.77" y="368.42" fill-opacity="0.3"/><use href="#gs-c" x="459.77" y="381.70" fill-opacity="0.3"/><use href="#gs-c" x="473.06" y="302.00" fill-opacity="0.75"/><use href="#gs-c" x="486.34" y="381.70" fill-opacity="0.3"/><use href="#gs-c" x="499.62" y="302.00" fill-opacity="0.5"/><use href="#gs-c" x="499.62" y="341.85" fill-opacity="0.5"/><use href="#gs-c" x="499.62" y="355.13" fill-opacity="0.3"/><use href="#gs-c" x="499.62" y="368.42" fill-opacity="0.5"/><use href="#gs-c" x="512.91" y="302.00" fill-opacity="0.3"/><use href="#gs-c" x="526.19" y="315.28" fill-opacity="0.5"/><use href="#gs-c" x="526.19" y="355.13" fill-opacity="0.5"/><use href="#gs-c" x="526.19" y="381.70" fill-opacity="0.75"/><use href="#gs-c" x="539.47" y="315.28" fill-opacity="0.3"/><use href="#gs-c" x="539.47" y="355.13" fill-opacity="0.5"/><use href="#gs-c" x="539.47" y="381.70" fill-opacity="0.3"/><use href="#gs-c" x="566.04" y="355.13" fill-opacity="0.3"/><use href="#gs-c" x="566.04" y="368.42" fill-opacity="0.3"/><use href="#gs-c" x="579.32" y="341.85" fill-opacity="0.5"/><use href="#gs-c" x="659.02" y="328.57" fill-opacity="0.5"/><use href="#gs-c" x="659.02" y="381.70" fill-opacity="0.75"/><use href="#gs-c" x="672.30" y="368.42" fill-opacity="0.75"/><use href="#gs-c" x="672.30" y="381.70" fill-opacity="0.3"/><use href="#gs-c" x="685.58" y="341.85" fill-opacity="0.5"/><use href="#gs-c" x="685.58" y="355.13" fill-opacity="0.3"/><use href="#gs-c" x="685.58" y="368.42" fill-opacity="0.3"/><use href="#gs-c" x="698.87" y="315.28" fill-opacity="0.5"/><use href="#gs-c" x="698.87" y="328.57" fill-opacity="0.75"/><use href="#gs-c" x="698.87" y="368.42" fill-opacity="0.75"/><use href="#gs-c" x="698.87" y="381.70" fill-opacity="0.5"/><use href="#gs-c" x="712.15" y="341.85" fill-opacity="1"/><use href="#gs-c" x="712.15" y="355.13" fill-opacity="0.75"/><use href="#gs-c" x="712.15" y="368.42" fill-opacity="0.3"/><use href="#gs-c" x="712.15" y="381.70" fill-opacity="0.3"/><use href="#gs-c" x="725.43" y="302.00" fill-opacity="0.5"/><use href="#gs-c" x="725.43" y="315.28" fill-opacity="1"/><use href="#gs-c" x="725.43" y="328.57" fill-opacity="1"/><use href="#gs-c" x="725.43" y="355.13" fill-opacity="1"/><use href="#gs-c" x="725.43" y="368.42" fill-opacity="0.75"/><use href="#gs-c" x="725.43" y="381.70" fill-opacity="0.3"/><use href="#gs-c" x="738.72" y="302.00" fill-opacity="0.5"/><use href="#gs-c" x="738.72" y="315.28" fill-opacity="1"/><use href="#gs-c" x="738.72" y="328.57" fill-opacity="1"/><use href="#gs-c" x="738.72" y="341.85" fill-opacity="1"/></g>
-
-  <g clip-path="url(#gs-clip)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path class="snake" d="M39.92 307.20L79.77 307.20L79.77 320.48L93.05 320.48L93.05 333.77L438.41 333.77L438.41 373.62L464.97 373.62L464.97 360.33L451.69 360.33L451.69 307.20L464.97 307.20L464.97 386.90L438.41 386.90L438.41 360.33L451.69 360.33L451.69 333.77L478.26 333.77L478.26 307.20L518.11 307.20L518.11 347.05L504.82 347.05L504.82 373.62L491.54 373.62L491.54 386.90L531.39 386.90L531.39 360.33L544.67 360.33L544.67 386.90L571.24 386.90L571.24 360.33L584.52 360.33L584.52 347.05L571.24 347.05L571.24 320.48L544.67 320.48L544.67 347.05L504.82 347.05L504.82 373.62L478.26 373.62L478.26 386.90L425.12 386.90L425.12 347.05L451.69 347.05L451.69 333.77L464.97 333.77L464.97 320.48L704.07 320.48L704.07 347.05L690.78 347.05L690.78 333.77L664.22 333.77L664.22 386.90L677.50 386.90L677.50 373.62L704.07 373.62L704.07 386.90L717.35 386.90L717.35 360.33L730.63 360.33L730.63 373.62L743.92 373.62L743.92 333.77L717.35 333.77L717.35 347.05L704.07 347.05L704.07 320.48L730.63 320.48L730.63 307.20L743.92 307.20L743.92 360.33L637.65 360.33L637.65 307.20L358.71 307.20L358.71 320.48L385.28 320.48L385.28 386.90L730.63 386.90L730.63 373.62L717.35 373.62L717.35 347.05L39.92 347.05" stroke="#ffffff" stroke-width="10.4" stroke-dasharray="79.698 11596.075" stroke-dashoffset="79.698"/>
-    <path class="eye" d="M39.92 307.20L79.77 307.20L79.77 320.48L93.05 320.48L93.05 333.77L438.41 333.77L438.41 373.62L464.97 373.62L464.97 360.33L451.69 360.33L451.69 307.20L464.97 307.20L464.97 386.90L438.41 386.90L438.41 360.33L451.69 360.33L451.69 333.77L478.26 333.77L478.26 307.20L518.11 307.20L518.11 347.05L504.82 347.05L504.82 373.62L491.54 373.62L491.54 386.90L531.39 386.90L531.39 360.33L544.67 360.33L544.67 386.90L571.24 386.90L571.24 360.33L584.52 360.33L584.52 347.05L571.24 347.05L571.24 320.48L544.67 320.48L544.67 347.05L504.82 347.05L504.82 373.62L478.26 373.62L478.26 386.90L425.12 386.90L425.12 347.05L451.69 347.05L451.69 333.77L464.97 333.77L464.97 320.48L704.07 320.48L704.07 347.05L690.78 347.05L690.78 333.77L664.22 333.77L664.22 386.90L677.50 386.90L677.50 373.62L704.07 373.62L704.07 386.90L717.35 386.90L717.35 360.33L730.63 360.33L730.63 373.62L743.92 373.62L743.92 333.77L717.35 333.77L717.35 347.05L704.07 347.05L704.07 320.48L730.63 320.48L730.63 307.20L743.92 307.20L743.92 360.33L637.65 360.33L637.65 307.20L358.71 307.20L358.71 320.48L385.28 320.48L385.28 386.90L730.63 386.90L730.63 373.62L717.35 373.62L717.35 347.05L39.92 347.05" stroke="#0a0a0a" stroke-width="3" stroke-dasharray="0.01 11596.075" stroke-dashoffset="3.600"/>
-  </g>
-
-  <rect x="48" y="422" width="704" height="6" rx="3" fill="#a3a3a3" fill-opacity="0.2"/>
+  <rect x="48" y="282" width="704" height="6" rx="3" fill="#a3a3a3" fill-opacity="0.2"/>
 
   <g class="lang-bar">
-    <rect x="48.000" y="422" width="626.947" height="6" rx="3" fill="#ffffff"/>
-    <rect x="674.947" y="422" width="59.663" height="6" rx="3" fill="#737373"/>
-    <rect x="734.610" y="422" width="17.390" height="6" rx="3" fill="#404040"/>
+    <rect x="48.000" y="282" width="626.947" height="6" rx="3" fill="#ffffff"/>
+    <rect x="674.947" y="282" width="59.663" height="6" rx="3" fill="#737373"/>
+    <rect x="734.610" y="282" width="17.390" height="6" rx="3" fill="#404040"/>
   </g>
 
   <g class="legend">
-    <rect x="48" y="436" width="8" height="8" rx="2" fill="#ffffff"/>
-    <text x="64" y="443" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">JAVASCRIPT  89%</text>
+    <rect x="48" y="296" width="8" height="8" rx="2" fill="#ffffff"/>
+    <text x="64" y="303" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">JAVASCRIPT  89%</text>
   </g>
   <g class="legend">
-    <rect x="282.667" y="436" width="8" height="8" rx="2" fill="#737373"/>
-    <text x="298.667" y="443" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">CSS  8%</text>
+    <rect x="282.667" y="296" width="8" height="8" rx="2" fill="#737373"/>
+    <text x="298.667" y="303" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">CSS  8%</text>
   </g>
   <g class="legend">
-    <rect x="517.333" y="436" width="8" height="8" rx="2" fill="#404040"/>
-    <text x="533.333" y="443" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">HTML  2%</text>
+    <rect x="517.333" y="296" width="8" height="8" rx="2" fill="#404040"/>
+    <text x="533.333" y="303" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">HTML  2%</text>
   </g>
 </svg>
