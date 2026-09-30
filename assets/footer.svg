@@ -35,7 +35,7 @@
       to { transform: translateX(256px); }
     }
   </style>
-
+  <rect width="800" height="320" fill="#0A0A0A"/>
   <defs>
     <linearGradient id="wave-fade" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
