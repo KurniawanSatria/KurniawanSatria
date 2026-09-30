@@ -81,14 +81,15 @@
       <path class="trail-lp" d="M225.88 222.33L53.20 222.33L53.20 209.05L345.43 209.05L345.43 169.20L531.39 169.20L531.39 182.48L544.67 182.48L544.67 222.33L504.82 222.33L504.82 248.90L464.97 248.90L464.97 235.62L438.41 235.62L438.41 248.90L425.12 248.90L425.12 222.33L451.69 222.33L451.69 209.05L464.97 209.05L464.97 182.48L438.41 182.48L438.41 209.05L531.39 209.05L531.39 248.90L571.24 248.90L571.24 209.05L664.22 209.05L664.22 182.48L704.07 182.48L704.07 209.05L690.78 209.05L690.78 235.62L677.50 235.62L677.50 248.90L650.94 248.90L650.94 222.33L730.63 222.33L730.63 248.90L704.07 248.90L704.07 235.62L717.35 235.62L717.35 195.77L743.92 195.77L743.92 169.20L730.63 169.20L730.63 182.48L571.24 182.48L571.24 235.62L743.92 235.62L743.92 182.48L318.86 182.48L318.86 209.05L371.99 209.05L371.99 222.33L53.20 222.33L53.20 209.05" fill="none" stroke="#000000" stroke-width="12.4" stroke-dasharray="185.962 9563.774" stroke-dashoffset="-5.200"/>
     </mask>
   </defs>
+  <rect x="0" y="0" width="800" height="430" fill="#0a0a0a"/>
 
   <text class="heading" x="48" y="84" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="36" font-weight="700" letter-spacing="-1.2">GitHub Stats.</text>
   <rect class="underline" x="48" y="96" width="262" height="2" fill="#ffffff" rx="1"/>
 
-  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   647 XP</text>
+  <text class="meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   648 XP</text>
 
   <g class="heat-meta">
-    <text x="48" y="152" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">567 CONTRIBUTIONS · LAST 12 MONTHS</text>
+    <text x="48" y="152" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">568 CONTRIBUTIONS · LAST 12 MONTHS</text>
     <text x="640" y="152" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4" text-anchor="end">LESS</text>
     <rect x="648" y="143" width="10" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.12"/><rect x="662" y="143" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.3"/><rect x="676" y="143" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.5"/><rect x="690" y="143" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="0.75"/><rect x="704" y="143" width="10" height="10" rx="2" fill="#ffffff" fill-opacity="1"/>
     <text x="722" y="152" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">MORE</text>
@@ -131,14 +132,14 @@
   <g transform="translate(576 282)">
     <g class="stat s7">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">BEST DAY</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">110</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">111</text>
       <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">contributions</text>
     </g>
   </g>
 
   <g class="xp">
     <text x="48" y="370" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 4</text>
-    <text x="752" y="370" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">647 / 700 XP — NEXT LVL</text>
+    <text x="752" y="370" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">648 / 700 XP — NEXT LVL</text>
   </g>
   <g class="xp-bar">
     <rect x="48.0" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
@@ -159,7 +160,7 @@
     <rect x="579.0" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="614.4" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="649.8" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
-    <rect x="685.2" y="378" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
+    <rect x="685.2" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
     <rect x="720.6" y="378" width="31.4" height="10" rx="2" fill="#a3a3a3" fill-opacity="0.25"/>
   </g>
 </svg>
