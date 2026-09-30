@@ -292,7 +292,7 @@
   <text class="gs-heading" x="48" y="84" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="36" font-weight="700" letter-spacing="-1.2">GitHub Stats.</text>
   <rect class="gs-underline" x="48" y="96" width="262" height="2" fill="#ffffff" rx="1"/>
 
-  <text class="gs-meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   670 XP</text>
+  <text class="gs-meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   671 XP</text>
 
   <g class="gs-heat-meta">
     <text x="48" y="152" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">572 CONTRIBUTIONS · LAST 12 MONTHS</text>
@@ -338,7 +338,7 @@
 
   <g class="gs-xp">
     <text x="48" y="370" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 4</text>
-    <text x="752" y="370" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">670 / 700 XP — NEXT LVL</text>
+    <text x="752" y="370" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">671 / 700 XP — NEXT LVL</text>
   </g>
   <g class="gs-xp-bar">
     <rect x="48.0" y="378" width="31.4" height="10" rx="2" fill="#ffffff"/>
