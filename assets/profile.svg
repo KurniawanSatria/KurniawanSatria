@@ -145,29 +145,7 @@
         to { transform: translateX(256px); }
       }
     </style>
-  <rect width="800" height="1510" fill="#0A0A0A"/>
-  <svg x="0" y="0" width="800" height="300" viewBox="0 0 800 300">
-  <title>Kurniawan Satria — Backend Developer</title>
-  
-  <rect width="800" height="320" fill="#0A0A0A"/>
-  <g class="hd-corner" opacity="0.6">
-    <rect x="40" y="42" width="22" height="2" fill="#ffffff"/>
-    <rect x="40" y="42" width="2" height="22" fill="#ffffff"/>
-  </g>
 
-  <g transform="translate(800 0) scale(-1 1)">
-    <g class="hd-corner" opacity="0.6">
-      <rect x="40" y="42" width="22" height="2" fill="#ffffff"/>
-      <rect x="40" y="42" width="2" height="22" fill="#ffffff"/>
-    </g>
-  </g>
-
-  <text class="hd-name" x="400" y="138" text-anchor="middle" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="56" font-weight="700" letter-spacing="-1.5">KURNIAWAN SATRIA</text>
-
-  <rect class="hd-underline" x="176" y="164" width="448" height="2" fill="#ffffff" rx="1"/>
-
-  <text class="hd-meta" x="400" y="200" text-anchor="middle" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2">BACKEND DEVELOPER   ·   ISLAMIC UNIVERSITY OF RIAU   ·   INDONESIA</text>
-  </svg>
   <svg x="0" y="300" width="800" height="320" viewBox="0 0 800 320">
   
   <rect width="800" height="320" fill="#0A0A0A"/>
