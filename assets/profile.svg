@@ -752,7 +752,7 @@
   </g>
 
 
-  <g transform="translate(0 306)">
+  <g transform="translate(48 306)">
     <g class="gs-stat gs-s4">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">CURRENT STREAK</text>
       <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">0</text>
