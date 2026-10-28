@@ -284,17 +284,17 @@
   <text class="gs-heading" x="90" y="84" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="36" font-weight="700" letter-spacing="-1.2">GitHub Stats.</text>
   <rect class="gs-underline" x="90" y="96" width="196" height="2" fill="#ffffff" rx="1"/>
 
-  <text class="gs-meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   1392 XP</text>
+  <text class="gs-meta" x="48" y="120" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">@KURNIAWANSATRIA   ·   1547 XP</text>
 
   <g class="gs-heat-meta">
-    <text x="48" y="160" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">1392 CONTRIBUTIONS · LAST 12 MONTHS</text>
+    <text x="48" y="160" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">1547 CONTRIBUTIONS · LAST 12 MONTHS</text>
     <text x="640" y="160" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4" text-anchor="end">LESS</text>
     <rect x="648" y="151" width="10" height="10" rx="3" fill="#a3a3a3" fill-opacity="0.12"/><rect x="662" y="151" width="10" height="10" rx="3" fill="#ffffff" fill-opacity="0.3"/><rect x="676" y="151" width="10" height="10" rx="3" fill="#ffffff" fill-opacity="0.5"/><rect x="690" y="151" width="10" height="10" rx="3" fill="#ffffff" fill-opacity="0.75"/><rect x="704" y="151" width="10" height="10" rx="3" fill="#ffffff" fill-opacity="1"/>
     <text x="722" y="160" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">MORE</text>
   </g>
-  <g class="gs-heat-base" fill="#a3a3a3" fill-opacity="0.10"><use href="#gs-gs-c" x="48.00" y="172.00"/>
-<use href="#gs-gs-c" x="48.00" y="185.28"/>
-<use href="#gs-gs-c" x="48.00" y="198.57"/>
+  <g class="gs-heat-base" fill="#a3a3a3" fill-opacity="0.10">
+
+
 <use href="#gs-gs-c" x="48.00" y="211.86"/>
 <use href="#gs-gs-c" x="48.00" y="225.14"/>
 <use href="#gs-gs-c" x="48.00" y="238.43"/>
@@ -660,98 +660,102 @@
 <use href="#gs-gs-c" x="738.82" y="185.28"/>
 <use href="#gs-gs-c" x="738.82" y="198.57"/>
 <use href="#gs-gs-c" x="738.82" y="211.86"/>
-<use href="#gs-gs-c" x="738.82" y="225.14"/>
-<use href="#gs-gs-c" x="738.82" y="238.43"/>
-<use href="#gs-gs-c" x="738.82" y="251.71"/>
   </g>
-  <g class="gs-heat-layer" fill="#ffffff"><use href="#gs-gs-c" x="313.70" y="198.57" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="313.70" y="251.71" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="326.99" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="340.27" y="211.86" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="393.41" y="238.43" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="393.41" y="251.71" fill-opacity="0.3"/>
+  <g class="gs-heat-layer" fill="#ffffff"><use href="#gs-gs-c" x="287.13" y="198.57" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="287.13" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="300.41" y="172.00" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="313.70" y="211.86" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="366.84" y="238.43" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="366.84" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="380.13" y="198.57" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="380.13" y="211.86" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="380.13" y="225.14" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="380.13" y="238.43" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="380.13" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="393.41" y="172.00" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="393.41" y="185.28" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="393.41" y="211.86" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="393.41" y="225.14" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="393.41" y="238.43" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="406.69" y="172.00" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="406.69" y="198.57" fill-opacity="0.5"/>
 <use href="#gs-gs-c" x="406.69" y="211.86" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="406.69" y="225.14" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="406.69" y="238.43" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="406.69" y="251.71" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="419.98" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="419.98" y="185.28" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="419.98" y="211.86" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="419.98" y="225.14" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="419.98" y="238.43" fill-opacity="0.5"/>
-<use href="#gs-gs-c" x="433.26" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="433.26" y="198.57" fill-opacity="0.5"/>
-<use href="#gs-gs-c" x="433.26" y="211.86" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="433.26" y="238.43" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="433.26" y="251.71" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="446.55" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="459.83" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="446.55" y="211.86" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="446.55" y="225.14" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="446.55" y="238.43" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="459.83" y="172.00" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="473.12" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="473.12" y="211.86" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="473.12" y="185.28" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="473.12" y="225.14" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="473.12" y="238.43" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="486.41" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="499.69" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="499.69" y="185.28" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="499.69" y="225.14" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="499.69" y="251.71" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="512.98" y="185.28" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="473.12" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="486.41" y="185.28" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="486.41" y="225.14" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="486.41" y="251.71" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="512.98" y="225.14" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="512.98" y="251.71" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="539.55" y="225.14" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="539.55" y="238.43" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="552.83" y="211.86" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="632.54" y="185.28" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="632.54" y="198.57" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="512.98" y="238.43" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="526.26" y="211.86" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="605.97" y="185.28" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="605.97" y="198.57" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="605.97" y="238.43" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="605.97" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="619.25" y="238.43" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="619.25" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="632.54" y="211.86" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="632.54" y="225.14" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="632.54" y="238.43" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="632.54" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="645.83" y="185.28" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="645.83" y="198.57" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="645.83" y="238.43" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="645.83" y="251.71" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="659.11" y="211.86" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="659.11" y="225.14" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="659.11" y="238.43" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="659.11" y="251.71" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="672.39" y="172.00" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="672.39" y="185.28" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="672.39" y="198.57" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="672.39" y="225.14" fill-opacity="0.3"/>
 <use href="#gs-gs-c" x="672.39" y="238.43" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="672.39" y="251.71" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="685.68" y="211.86" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="685.68" y="225.14" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="685.68" y="238.43" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="685.68" y="251.71" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="698.97" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="698.97" y="185.28" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="698.97" y="198.57" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="698.97" y="225.14" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="698.97" y="238.43" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="712.25" y="172.00" fill-opacity="0.3"/>
-<use href="#gs-gs-c" x="712.25" y="185.28" fill-opacity="1"/>
-<use href="#gs-gs-c" x="712.25" y="198.57" fill-opacity="1"/>
-<use href="#gs-gs-c" x="712.25" y="211.86" fill-opacity="1"/>
+<use href="#gs-gs-c" x="685.68" y="172.00" fill-opacity="0.3"/>
+<use href="#gs-gs-c" x="685.68" y="185.28" fill-opacity="1"/>
+<use href="#gs-gs-c" x="685.68" y="198.57" fill-opacity="1"/>
+<use href="#gs-gs-c" x="685.68" y="211.86" fill-opacity="1"/>
+<use href="#gs-gs-c" x="685.68" y="225.14" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="685.68" y="238.43" fill-opacity="1"/>
+<use href="#gs-gs-c" x="685.68" y="251.71" fill-opacity="1"/>
+<use href="#gs-gs-c" x="698.97" y="172.00" fill-opacity="1"/>
+<use href="#gs-gs-c" x="698.97" y="185.28" fill-opacity="1"/>
+<use href="#gs-gs-c" x="698.97" y="198.57" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="698.97" y="211.86" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="698.97" y="225.14" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="698.97" y="238.43" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="698.97" y="251.71" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="712.25" y="172.00" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="712.25" y="185.28" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="712.25" y="198.57" fill-opacity="0.75"/>
+<use href="#gs-gs-c" x="712.25" y="211.86" fill-opacity="0.75"/>
 <use href="#gs-gs-c" x="712.25" y="225.14" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="712.25" y="238.43" fill-opacity="1"/>
-<use href="#gs-gs-c" x="712.25" y="251.71" fill-opacity="1"/>
-<use href="#gs-gs-c" x="725.53" y="172.00" fill-opacity="1"/>
-<use href="#gs-gs-c" x="725.53" y="185.28" fill-opacity="1"/>
-<use href="#gs-gs-c" x="725.53" y="198.57" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="725.53" y="211.86" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="725.53" y="225.14" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="725.53" y="238.43" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="725.53" y="251.71" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="738.82" y="172.00" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="738.82" y="185.28" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="738.82" y="198.57" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="738.82" y="211.86" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="738.82" y="225.14" fill-opacity="0.75"/>
-<use href="#gs-gs-c" x="738.82" y="238.43" fill-opacity="0.5"/>
-<use href="#gs-gs-c" x="738.82" y="251.71" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="712.25" y="238.43" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="712.25" y="251.71" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="725.53" y="172.00" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="725.53" y="185.28" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="725.53" y="198.57" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="725.53" y="211.86" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="725.53" y="225.14" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="725.53" y="238.43" fill-opacity="0.5"/>
+<use href="#gs-gs-c" x="725.53" y="251.71" fill-opacity="0.3"/>
   </g>
 
 
   <g transform="translate(0 306)">
     <g class="gs-stat gs-s4">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">CURRENT STREAK</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">21</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">0</text>
       <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">days</text>
     </g>
   </g>
@@ -759,7 +763,7 @@
   <g transform="translate(224 306)">
     <g class="gs-stat gs-s5">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">LONGEST STREAK</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">21</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">28</text>
       <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">days · all time</text>
     </g>
   </g>
@@ -767,7 +771,7 @@
   <g transform="translate(400 306)">
     <g class="gs-stat gs-s6">
       <text x="0" y="0" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">ACTIVE DAYS</text>
-      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">81</text>
+      <text x="0" y="38" fill="#ffffff" font-family='"Inter", system-ui, sans-serif' font-size="34" font-weight="700" letter-spacing="-1">88</text>
       <text x="0" y="58" fill="#a3a3a3" font-family='"Inter", system-ui, sans-serif' font-size="11" font-weight="400">all time</text>
     </g>
   </g>
@@ -781,8 +785,8 @@
   </g>
 
   <g class="gs-xp">
-    <text x="48" y="392" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 7</text>
-    <text x="752" y="392" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">1392 / 2200 XP — NEXT LVL</text>
+    <text x="48" y="392" fill="#ffffff" font-family="ui-monospace, monospace" font-size="12" font-weight="700" letter-spacing="2">LVL 8</text>
+    <text x="752" y="392" fill="#a3a3a3" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" text-anchor="end">1547 / 2200 XP — NEXT LVL</text>
   </g>
   <g class="gs-xp-bar">
     <rect x="48.0" y="406" width="31.4" height="10" rx="5" fill="#ffffff"/>
@@ -797,8 +801,8 @@
     <rect x="366.6" y="406" width="31.4" height="10" rx="5" fill="#ffffff"/>
     <rect x="402.0" y="406" width="31.4" height="10" rx="5" fill="#ffffff"/>
     <rect x="437.4" y="406" width="31.4" height="10" rx="5" fill="#ffffff"/>
-    <rect class="gs-xp-tip" x="472.8" y="406" width="31.4" height="10" rx="5" fill="#ffffff"/>
-    <rect x="508.2" y="406" width="31.4" height="10" rx="5" fill="#a3a3a3" fill-opacity="0.18"/>
+    <rect x="472.8" y="406" width="31.4" height="10" rx="5" fill="#ffffff"/>
+    <rect class="gs-xp-tip" x="508.2" y="406" width="31.4" height="10" rx="5" fill="#ffffff"/>
     <rect x="543.6" y="406" width="31.4" height="10" rx="5" fill="#a3a3a3" fill-opacity="0.18"/>
     <rect x="579.0" y="406" width="31.4" height="10" rx="5" fill="#a3a3a3" fill-opacity="0.18"/>
     <rect x="614.4" y="406" width="31.4" height="10" rx="5" fill="#a3a3a3" fill-opacity="0.18"/>
